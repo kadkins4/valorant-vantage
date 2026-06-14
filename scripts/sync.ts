@@ -53,6 +53,7 @@ async function main() {
     .select({ id: matches.matchId })
     .from(matches)
     .where(sql`${matches.hasDetail} = false`);
+  let detailAdded = 0;
   for (const { id } of need) {
     try {
       const full = await henrik.matchById(region, id);
@@ -61,6 +62,7 @@ async function main() {
         .update(matches)
         .set({ detail, hasDetail: true })
         .where(sql`${matches.matchId} = ${id}`);
+      detailAdded++;
     } catch (e) {
       console.warn(`detail fetch failed for ${id}:`, (e as Error).message);
     }
@@ -73,19 +75,27 @@ async function main() {
     note: `synced ${matchRows.length} matches, ${rankRows.length} rank pts`,
   });
 
-  // Export snapshot (full DB state) for backup + fallback.
-  const allMatches = await db.select().from(matches);
-  const allRanks = await db.select().from(rankHistory);
-  writeSnapshot({
-    generatedAt: new Date().toISOString(),
-    account: acc.data,
-    mmr: mmr.data,
-    matches: allMatches,
-    rankHistory: allRanks,
-  });
+  // Only rewrite the snapshot when the DB actually changed. The snapshot carries
+  // a fresh generatedAt (and Henrik's account payload a fresh updated_at) on every
+  // run, so writing it unconditionally produced a no-op diff every hour — the sync
+  // bot would commit and redeploy even when nothing was played. Gating on real
+  // changes makes generatedAt mean "last new data" and stops the churn.
+  const changed = matchesAdded > 0 || ranksAdded > 0 || detailAdded > 0;
+  if (changed) {
+    const allMatches = await db.select().from(matches);
+    const allRanks = await db.select().from(rankHistory);
+    writeSnapshot({
+      generatedAt: new Date().toISOString(),
+      account: acc.data,
+      mmr: mmr.data,
+      matches: allMatches,
+      rankHistory: allRanks,
+    });
+  }
 
   console.log(
-    `Sync OK: +${matchesAdded} matches, +${ranksAdded} rank pts. Snapshot written.`,
+    `Sync OK: +${matchesAdded} matches, +${ranksAdded} rank pts, +${detailAdded} details.` +
+      (changed ? " Snapshot written." : " No new data; snapshot unchanged."),
   );
   process.exit(0);
 }
