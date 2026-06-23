@@ -16,19 +16,38 @@ async function throttle() {
   last = Date.now();
 }
 
+const MAX_RETRIES = 4;
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+// Transient: rate limits (429) and any server-side 5xx. Patch-day HenrikDev
+// outages surface as bursts of 500s, so retrying rides them out instead of
+// failing the whole scheduled sync on a single bad response.
+const retryable = (status: number) => status === 429 || status >= 500;
+
 async function get<T>(path: string, attempt = 0): Promise<T> {
   await throttle();
-  const res = await fetch(`${BASE}${path}`, {
-    headers: { Authorization: KEY() },
-  });
-  // Rate limited: respect Retry-After when present, else back off, and retry.
-  if (res.status === 429 && attempt < 4) {
+  let res: Response;
+  try {
+    res = await fetch(`${BASE}${path}`, { headers: { Authorization: KEY() } });
+  } catch (e) {
+    // Network-level failure (DNS, reset, timeout) — also worth retrying.
+    if (attempt < MAX_RETRIES) {
+      const waitMs = 5000 * (attempt + 1);
+      console.warn(
+        `HenrikDev ${path} -> network error (${(e as Error).message}), retrying in ${Math.round(waitMs / 1000)}s (retry ${attempt + 1}/${MAX_RETRIES})`,
+      );
+      await sleep(waitMs);
+      return get<T>(path, attempt + 1);
+    }
+    throw e;
+  }
+  // Transient HTTP status: respect Retry-After when present, else back off linearly.
+  if (retryable(res.status) && attempt < MAX_RETRIES) {
     const retryAfter = Number(res.headers.get("retry-after"));
     const waitMs = retryAfter > 0 ? retryAfter * 1000 : 5000 * (attempt + 1);
     console.warn(
-      `HenrikDev ${path} -> 429, backing off ${Math.round(waitMs / 1000)}s (retry ${attempt + 1}/4)`,
+      `HenrikDev ${path} -> ${res.status}, backing off ${Math.round(waitMs / 1000)}s (retry ${attempt + 1}/${MAX_RETRIES})`,
     );
-    await new Promise((r) => setTimeout(r, waitMs));
+    await sleep(waitMs);
     return get<T>(path, attempt + 1);
   }
   if (!res.ok) throw new Error(`HenrikDev ${path} -> HTTP ${res.status}`);
