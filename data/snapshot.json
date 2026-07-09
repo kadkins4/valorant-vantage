@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-02T07:32:26.594Z",
+  "generatedAt": "2026-07-09T00:09:05.307Z",
   "account": {
     "puuid": "150b68cb-4440-5659-af74-e59b91a3d0a8",
     "region": "na",
-    "account_level": 643,
+    "account_level": 645,
     "name": "ST1CCS",
     "tag": "STONE",
     "card": "7b240a91-4925-8bb6-7812-60b49543e145",
@@ -12,7 +12,7 @@
       "PC",
       "CONSOLE"
     ],
-    "updated_at": "2026-07-02T07:32:18.636Z"
+    "updated_at": "2026-07-09T00:08:56.121Z"
   },
   "mmr": {
     "account": {
@@ -40,7 +40,7 @@
       "rr": 0,
       "last_change": 0,
       "elo": 0,
-      "games_needed_for_rating": 2,
+      "games_needed_for_rating": 1,
       "rank_protection_shields": 2,
       "leaderboard_placement": null
     },
@@ -3673,7 +3673,7 @@
           "short": "e11a4"
         },
         "wins": 0,
-        "games": 3,
+        "games": 4,
         "end_tier": {
           "id": 0,
           "name": "Unrated"
@@ -3682,6 +3682,10 @@
         "ranking_schema": "ascendant",
         "leaderboard_placement": null,
         "act_wins": [
+          {
+            "id": 0,
+            "name": "Unrated"
+          },
           {
             "id": 0,
             "name": "Unrated"
@@ -9700,6 +9704,436 @@
       },
       "hasDetail": true,
       "syncedAt": "2026-07-02T07:32:24.829Z"
+    },
+    {
+      "matchId": "9d15ca7a-fe8c-4d92-a3d0-7e570553a5ca",
+      "playedAt": "2026-07-08T22:45:59.626Z",
+      "season": "e11a4",
+      "map": "Lotus",
+      "agent": "Omen",
+      "tier": 0,
+      "kills": 13,
+      "deaths": 14,
+      "assists": 14,
+      "score": 4112,
+      "shotsHead": 7,
+      "shotsBody": 53,
+      "shotsLeg": 9,
+      "damageMade": 2783,
+      "damageReceived": 2559,
+      "roundsWon": 13,
+      "roundsLost": 7,
+      "won": true,
+      "detail": {
+        "duels": [
+          {
+            "x": 4805,
+            "y": -4197,
+            "ex": 6877,
+            "ey": -3575,
+            "mx": 4805,
+            "my": -4197,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 0,
+            "weapon": "Sheriff",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 9474,
+            "y": 5461,
+            "ex": 9474,
+            "ey": 5461,
+            "mx": 9253,
+            "my": 6504,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 1,
+            "weapon": "Ghost",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 4778,
+            "y": -2957,
+            "ex": 5199,
+            "ey": -3422,
+            "mx": 4778,
+            "my": -2957,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 2,
+            "weapon": "Sheriff",
+            "enemyAgent": "Veto"
+          },
+          {
+            "x": 2091,
+            "y": 801,
+            "ex": 3769,
+            "ey": 840,
+            "mx": 2091,
+            "my": 801,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 3,
+            "opener": true,
+            "weapon": "Phantom",
+            "enemyAgent": "KAY/O"
+          },
+          {
+            "x": 7554,
+            "y": 5324,
+            "ex": 6922,
+            "ey": 4840,
+            "mx": 7554,
+            "my": 5324,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 4,
+            "weapon": "Phantom",
+            "enemyAgent": "KAY/O"
+          },
+          {
+            "x": 4246,
+            "y": -1963,
+            "ex": 4246,
+            "ey": -1963,
+            "mx": 2056,
+            "my": -2882,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 5,
+            "weapon": "Phantom",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 6312,
+            "y": -2865,
+            "ex": 6312,
+            "ey": -2865,
+            "mx": 7425,
+            "my": -4531,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 5,
+            "weapon": "Phantom",
+            "enemyAgent": "Omen"
+          },
+          {
+            "x": 5957,
+            "y": -2375,
+            "ex": 7828,
+            "ey": -1336,
+            "mx": 5957,
+            "my": -2375,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 5,
+            "weapon": "Phantom",
+            "enemyAgent": "Fade"
+          },
+          {
+            "x": 4715,
+            "y": -12,
+            "ex": 4715,
+            "ey": -12,
+            "mx": 5207,
+            "my": 821,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 6,
+            "weapon": "Phantom",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 4688,
+            "y": -3154,
+            "ex": 2639,
+            "ey": -2244,
+            "mx": 4688,
+            "my": -3154,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 6,
+            "weapon": "Phantom",
+            "enemyAgent": "Omen"
+          },
+          {
+            "x": 7296,
+            "y": 336,
+            "ex": 7683,
+            "ey": -711,
+            "mx": 7296,
+            "my": 336,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 7,
+            "weapon": "Phantom",
+            "enemyAgent": "Veto"
+          },
+          {
+            "x": 3955,
+            "y": 1024,
+            "ex": 3955,
+            "ey": 1024,
+            "mx": 3414,
+            "my": -145,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 8,
+            "weapon": "Spectre",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 4556,
+            "y": 173,
+            "ex": 4556,
+            "ey": 173,
+            "mx": 6877,
+            "my": -809,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 8,
+            "weapon": "Spectre",
+            "enemyAgent": "Veto"
+          },
+          {
+            "x": 5511,
+            "y": -3746,
+            "ex": 5511,
+            "ey": -3746,
+            "mx": 5123,
+            "my": -4969,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 9,
+            "weapon": "Vandal",
+            "enemyAgent": "Veto"
+          },
+          {
+            "x": 5697,
+            "y": -3766,
+            "ex": 5697,
+            "ey": -3766,
+            "mx": 5476,
+            "my": -4865,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 10,
+            "weapon": "Vandal",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 6108,
+            "y": -4988,
+            "ex": 6108,
+            "ey": -4988,
+            "mx": 5626,
+            "my": -5453,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 10,
+            "weapon": "Vandal",
+            "enemyAgent": "Omen"
+          },
+          {
+            "x": 6322,
+            "y": -4802,
+            "ex": 6322,
+            "ey": -4802,
+            "mx": 6144,
+            "my": -5453,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 10,
+            "weapon": "Vandal",
+            "enemyAgent": "Fade"
+          },
+          {
+            "x": 5625,
+            "y": -3833,
+            "ex": 5625,
+            "ey": -3833,
+            "mx": 5582,
+            "my": -4938,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 11,
+            "weapon": "Vandal",
+            "enemyAgent": "KAY/O"
+          },
+          {
+            "x": 5721,
+            "y": -5361,
+            "ex": 7123,
+            "ey": -4143,
+            "mx": 5721,
+            "my": -5361,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 11,
+            "weapon": "Phantom",
+            "enemyAgent": "Omen"
+          },
+          {
+            "x": 6858,
+            "y": -4377,
+            "ex": 6858,
+            "ey": -4377,
+            "mx": 7093,
+            "my": -4080,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 12,
+            "opener": true,
+            "weapon": "Classic",
+            "enemyAgent": "KAY/O"
+          },
+          {
+            "x": 7042,
+            "y": -4041,
+            "ex": 7007,
+            "ey": -4647,
+            "mx": 7042,
+            "my": -4041,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 12,
+            "weapon": "Ghost",
+            "enemyAgent": "Omen"
+          },
+          {
+            "x": 7949,
+            "y": -4675,
+            "ex": 7636,
+            "ey": -4623,
+            "mx": 7949,
+            "my": -4675,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 13,
+            "weapon": "Spectre",
+            "enemyAgent": "KAY/O"
+          },
+          {
+            "x": 6747,
+            "y": 832,
+            "ex": 4831,
+            "ey": -837,
+            "mx": 6747,
+            "my": 832,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 14,
+            "weapon": "Phantom",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 2962,
+            "y": -2023,
+            "ex": 1958,
+            "ey": -2627,
+            "mx": 2962,
+            "my": -2023,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 16,
+            "opener": true,
+            "weapon": "Vandal",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 4711,
+            "y": 5431,
+            "ex": 4711,
+            "ey": 5431,
+            "mx": 5901,
+            "my": 3117,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 17,
+            "weapon": "Phantom",
+            "enemyAgent": "Omen"
+          },
+          {
+            "x": 6820,
+            "y": -4242,
+            "ex": 5402,
+            "ey": -5455,
+            "mx": 6820,
+            "my": -4242,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 17,
+            "weapon": "Phantom",
+            "enemyAgent": "Fade"
+          },
+          {
+            "x": 5378,
+            "y": 4246,
+            "ex": 4275,
+            "ey": 2790,
+            "mx": 5378,
+            "my": 4246,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 18,
+            "opener": true,
+            "weapon": "Vandal",
+            "enemyAgent": "Veto"
+          }
+        ],
+        "weapons": [
+          {
+            "kills": 5,
+            "weapon": "Vandal"
+          },
+          {
+            "kills": 4,
+            "weapon": "Phantom"
+          },
+          {
+            "kills": 2,
+            "weapon": "Spectre"
+          },
+          {
+            "kills": 1,
+            "weapon": "Ghost"
+          },
+          {
+            "kills": 1,
+            "weapon": "Classic"
+          }
+        ]
+      },
+      "hasDetail": true,
+      "syncedAt": "2026-07-09T00:09:03.819Z"
     },
     {
       "matchId": "f845ef15-6733-48fc-8a10-655a72089347",
@@ -66864,6 +67298,16 @@
     {
       "matchId": "fe85a177-6daf-4395-a72f-7715b2e6c531",
       "playedAt": "2026-07-02T05:37:06.602Z",
+      "tier": 0,
+      "tierName": "Unrated",
+      "rr": 0,
+      "lastChange": 0,
+      "elo": 0,
+      "map": "Lotus"
+    },
+    {
+      "matchId": "9d15ca7a-fe8c-4d92-a3d0-7e570553a5ca",
+      "playedAt": "2026-07-08T22:45:59.626Z",
       "tier": 0,
       "tierName": "Unrated",
       "rr": 0,
