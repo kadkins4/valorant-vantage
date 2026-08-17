@@ -79,3 +79,39 @@ describe("henrik.get retry", () => {
     expect(fetchMock).toHaveBeenCalledTimes(1);
   });
 });
+
+describe("henrik upstream classification", () => {
+  // The scheduled sync soft-fails (no alert) only when a HenrikError is flagged
+  // upstream. These pin down which failures earn that flag.
+  it("flags an exhausted 5xx as upstream", async () => {
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue(resp({}, 500)));
+    const { henrik, HenrikError } = await import("@/lib/henrik");
+    const p = henrik.account("name", "tag").catch((e) => e);
+    await vi.runAllTimersAsync();
+    const err = await p;
+    expect(err).toBeInstanceOf(HenrikError);
+    expect(err.upstream).toBe(true);
+    expect(err.status).toBe(500);
+  });
+
+  it("flags an exhausted network error as upstream", async () => {
+    vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new Error("ECONNRESET")));
+    const { henrik, HenrikError } = await import("@/lib/henrik");
+    const p = henrik.account("name", "tag").catch((e) => e);
+    await vi.runAllTimersAsync();
+    const err = await p;
+    expect(err).toBeInstanceOf(HenrikError);
+    expect(err.upstream).toBe(true);
+  });
+
+  it("does NOT flag a 4xx as upstream (our bug, should alert)", async () => {
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue(resp({}, 404)));
+    const { henrik, HenrikError } = await import("@/lib/henrik");
+    const p = henrik.account("name", "tag").catch((e) => e);
+    await vi.runAllTimersAsync();
+    const err = await p;
+    expect(err).toBeInstanceOf(HenrikError);
+    expect(err.upstream).toBe(false);
+    expect(err.status).toBe(404);
+  });
+});

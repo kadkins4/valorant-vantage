@@ -7,7 +7,7 @@ import {
   type MatchRow,
   type RankRow,
 } from "@/lib/db/schema";
-import { henrik } from "@/lib/henrik";
+import { henrik, HenrikError } from "@/lib/henrik";
 import { account } from "@/lib/config";
 import {
   storedMatchToRow,
@@ -99,7 +99,28 @@ async function main() {
   );
   process.exit(0);
 }
-main().catch((e) => {
+main().catch(async (e) => {
+  // Upstream HenrikDev outages (5xx/429 after retries, or network failure) are
+  // transient and out of our hands. During a multi-hour outage the hourly cron
+  // would otherwise email a hard failure every run. Soft-fail instead: record
+  // the failed run and exit 0 so no alert fires. The next good run catches up.
+  // Anything else (DB down, bad data, our bug) still exits 1 and alerts.
+  if (e instanceof HenrikError && e.upstream) {
+    console.warn(`Sync skipped — HenrikDev upstream unavailable: ${e.message}`);
+    try {
+      await db.insert(syncRuns).values({
+        matchesAdded: 0,
+        ranksAdded: 0,
+        ok: false,
+        note: `upstream unavailable: ${e.message}`,
+      });
+    } catch (dbErr) {
+      // Couldn't even record the run — that's a real failure, so alert.
+      console.error("Failed to record syncRun after upstream error:", dbErr);
+      process.exit(1);
+    }
+    process.exit(0);
+  }
   console.error(e);
   process.exit(1);
 });
