@@ -16,6 +16,24 @@ async function throttle() {
   last = Date.now();
 }
 
+// Raised when a HenrikDev call ultimately fails. `upstream` is true when the
+// failure is on their side and transient — a 5xx/429 that survived all retries,
+// or a network-level error — so callers can soft-fail the scheduled sync instead
+// of alerting. A 4xx (bad account/key) is NOT upstream: that's our bug to fix.
+export class HenrikError extends Error {
+  upstream: boolean;
+  status?: number;
+  constructor(
+    message: string,
+    opts: { upstream: boolean; status?: number; cause?: unknown },
+  ) {
+    super(message, { cause: opts.cause });
+    this.name = "HenrikError";
+    this.upstream = opts.upstream;
+    this.status = opts.status;
+  }
+}
+
 const MAX_RETRIES = 4;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 // Transient: rate limits (429) and any server-side 5xx. Patch-day HenrikDev
@@ -38,7 +56,10 @@ async function get<T>(path: string, attempt = 0): Promise<T> {
       await sleep(waitMs);
       return get<T>(path, attempt + 1);
     }
-    throw e;
+    throw new HenrikError(
+      `HenrikDev ${path} -> network error (${(e as Error).message})`,
+      { upstream: true, cause: e },
+    );
   }
   // Transient HTTP status: respect Retry-After when present, else back off linearly.
   if (retryable(res.status) && attempt < MAX_RETRIES) {
@@ -50,7 +71,11 @@ async function get<T>(path: string, attempt = 0): Promise<T> {
     await sleep(waitMs);
     return get<T>(path, attempt + 1);
   }
-  if (!res.ok) throw new Error(`HenrikDev ${path} -> HTTP ${res.status}`);
+  if (!res.ok)
+    throw new HenrikError(`HenrikDev ${path} -> HTTP ${res.status}`, {
+      upstream: retryable(res.status),
+      status: res.status,
+    });
   return (await res.json()) as T;
 }
 
