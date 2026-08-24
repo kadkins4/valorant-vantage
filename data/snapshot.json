@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-19T02:56:49.389Z",
+  "generatedAt": "2026-08-24T19:28:41.323Z",
   "account": {
     "puuid": "150b68cb-4440-5659-af74-e59b91a3d0a8",
     "region": "na",
-    "account_level": 658,
+    "account_level": 659,
     "name": "ST1CCS",
     "tag": "STONE",
     "card": "7b240a91-4925-8bb6-7812-60b49543e145",
@@ -12,7 +12,7 @@
       "PC",
       "CONSOLE"
     ],
-    "updated_at": "2026-08-19T02:56:22.719Z"
+    "updated_at": "2026-08-24T18:38:34.38Z"
   },
   "mmr": {
     "account": {
@@ -37,9 +37,9 @@
         "id": 18,
         "name": "Diamond 1"
       },
-      "rr": 0,
-      "last_change": -20,
-      "elo": 1500,
+      "rr": 24,
+      "last_change": 24,
+      "elo": 1524,
       "games_needed_for_rating": 0,
       "rank_protection_shields": 2,
       "leaderboard_placement": null
@@ -3717,6 +3717,27 @@
           {
             "id": 0,
             "name": "Unrated"
+          }
+        ]
+      },
+      {
+        "season": {
+          "id": "8102cd81-43a0-d0d7-bd59-47b8fe9bed1b",
+          "short": "e11a5"
+        },
+        "wins": 1,
+        "games": 3,
+        "end_tier": {
+          "id": 18,
+          "name": "Diamond 1"
+        },
+        "end_rr": 24,
+        "ranking_schema": "ascendant",
+        "leaderboard_placement": null,
+        "act_wins": [
+          {
+            "id": 18,
+            "name": "Diamond 1"
           }
         ]
       }
@@ -29548,6 +29569,410 @@
       },
       "hasDetail": true,
       "syncedAt": "2026-08-19T02:56:46.448Z"
+    },
+    {
+      "matchId": "204c6dbf-12d8-4a10-9e01-8b20e4ea649d",
+      "playedAt": "2026-08-24T18:52:03.096Z",
+      "season": "e11a5",
+      "map": "Split",
+      "agent": "Omen",
+      "tier": 18,
+      "kills": 14,
+      "deaths": 11,
+      "assists": 13,
+      "score": 4253,
+      "shotsHead": 6,
+      "shotsBody": 57,
+      "shotsLeg": 3,
+      "damageMade": 2806,
+      "damageReceived": 1988,
+      "roundsWon": 13,
+      "roundsLost": 5,
+      "won": true,
+      "detail": {
+        "duels": [
+          {
+            "x": 5642,
+            "y": -3642,
+            "ex": 5642,
+            "ey": -3642,
+            "mx": 5612,
+            "my": -4609,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 1,
+            "weapon": "Stinger",
+            "enemyAgent": "Deadlock"
+          },
+          {
+            "x": 5642,
+            "y": -4238,
+            "ex": 5642,
+            "ey": -4238,
+            "mx": 6766,
+            "my": -6927,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 1,
+            "weapon": "Odin",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 6358,
+            "y": -5592,
+            "ex": 6358,
+            "ey": -5592,
+            "mx": 6054,
+            "my": -8458,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 1,
+            "weapon": "Odin",
+            "enemyAgent": "Tejo"
+          },
+          {
+            "x": 6315,
+            "y": -4721,
+            "ex": 6315,
+            "ey": -4721,
+            "mx": 5981,
+            "my": -6231,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 1,
+            "weapon": "Odin",
+            "enemyAgent": "Neon"
+          },
+          {
+            "x": 2957,
+            "y": -5531,
+            "ex": 2227,
+            "ey": -5081,
+            "mx": 2957,
+            "my": -5531,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 2,
+            "weapon": "Vandal",
+            "enemyAgent": "Neon"
+          },
+          {
+            "x": 6355,
+            "y": -4248,
+            "ex": 6355,
+            "ey": -4248,
+            "mx": 5815,
+            "my": -6518,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 3,
+            "weapon": "Phantom",
+            "enemyAgent": "Gekko"
+          },
+          {
+            "x": 6554,
+            "y": -4094,
+            "ex": 6554,
+            "ey": -4094,
+            "mx": 5523,
+            "my": -6960,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 3,
+            "weapon": "Phantom",
+            "enemyAgent": "Deadlock"
+          },
+          {
+            "x": 4872,
+            "y": -4423,
+            "ex": 4872,
+            "ey": -4423,
+            "mx": 4164,
+            "my": -5335,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 4,
+            "opener": true,
+            "weapon": "Phantom",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 4992,
+            "y": -3937,
+            "ex": 4090,
+            "ey": -4904,
+            "mx": 4992,
+            "my": -3937,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 4,
+            "weapon": "Bucky",
+            "enemyAgent": "Neon"
+          },
+          {
+            "x": 1665,
+            "y": -4917,
+            "ex": 1665,
+            "ey": -4917,
+            "mx": 2384,
+            "my": -5209,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 5,
+            "weapon": "Phantom",
+            "enemyAgent": "Tejo"
+          },
+          {
+            "x": 6393,
+            "y": -5941,
+            "ex": 6292,
+            "ey": -4019,
+            "mx": 6393,
+            "my": -5941,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 6,
+            "weapon": "Guardian",
+            "enemyAgent": "Gekko"
+          },
+          {
+            "x": 5754,
+            "y": -4043,
+            "ex": 5754,
+            "ey": -4043,
+            "mx": 6620,
+            "my": -6832,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 7,
+            "weapon": "Vandal",
+            "enemyAgent": "Deadlock"
+          },
+          {
+            "x": 5782,
+            "y": -4446,
+            "ex": 5782,
+            "ey": -4446,
+            "mx": 6557,
+            "my": -6858,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 7,
+            "weapon": "Vandal",
+            "enemyAgent": "Tejo"
+          },
+          {
+            "x": -2450,
+            "y": -3866,
+            "ex": -2450,
+            "ey": -3866,
+            "mx": -3196,
+            "my": -7644,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 8,
+            "weapon": "Vandal",
+            "enemyAgent": "Tejo"
+          },
+          {
+            "x": 7035,
+            "y": -6938,
+            "ex": 5516,
+            "ey": -5594,
+            "mx": 7035,
+            "my": -6938,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 9,
+            "weapon": "Guardian",
+            "enemyAgent": "Neon"
+          },
+          {
+            "x": 6272,
+            "y": -4175,
+            "ex": 6272,
+            "ey": -4175,
+            "mx": 6095,
+            "my": -5030,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 10,
+            "opener": true,
+            "weapon": "Phantom",
+            "enemyAgent": "Neon"
+          },
+          {
+            "x": 6055,
+            "y": -3806,
+            "ex": 6972,
+            "ey": -4884,
+            "mx": 6055,
+            "my": -3806,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 10,
+            "weapon": "Vandal",
+            "enemyAgent": "Tejo"
+          },
+          {
+            "x": 3343,
+            "y": -5764,
+            "ex": 3280,
+            "ey": -5265,
+            "mx": 3343,
+            "my": -5764,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 11,
+            "weapon": "Phantom",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 6995,
+            "y": -4070,
+            "ex": 4251,
+            "ey": -4551,
+            "mx": 6995,
+            "my": -4070,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 12,
+            "weapon": "Sheriff",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 4141,
+            "y": -4593,
+            "ex": 4141,
+            "ey": -4593,
+            "mx": 7031,
+            "my": -4252,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 13,
+            "weapon": "Classic",
+            "enemyAgent": "Neon"
+          },
+          {
+            "x": 6072,
+            "y": -8093,
+            "ex": 6072,
+            "ey": -8093,
+            "mx": 6656,
+            "my": -8047,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 14,
+            "weapon": "Ares",
+            "enemyAgent": "Neon"
+          },
+          {
+            "x": 6656,
+            "y": -8047,
+            "ex": 5803,
+            "ey": -7139,
+            "mx": 6656,
+            "my": -8047,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 14,
+            "weapon": "Bandit",
+            "enemyAgent": "Deadlock"
+          },
+          {
+            "x": 5448,
+            "y": -6799,
+            "ex": 5287,
+            "ey": -6900,
+            "mx": 5448,
+            "my": -6799,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 15,
+            "weapon": "Stinger",
+            "enemyAgent": "Deadlock"
+          },
+          {
+            "x": -2420,
+            "y": -4109,
+            "ex": -3293,
+            "ey": -5484,
+            "mx": -2420,
+            "my": -4109,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 16,
+            "weapon": "Vandal",
+            "enemyAgent": "Neon"
+          },
+          {
+            "x": -2179,
+            "y": -5756,
+            "ex": -1849,
+            "ey": -5732,
+            "mx": -2179,
+            "my": -5756,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 17,
+            "weapon": "Vandal",
+            "enemyAgent": "Neon"
+          }
+        ],
+        "weapons": [
+          {
+            "kills": 5,
+            "weapon": "Phantom"
+          },
+          {
+            "kills": 3,
+            "weapon": "Odin"
+          },
+          {
+            "kills": 3,
+            "weapon": "Vandal"
+          },
+          {
+            "kills": 1,
+            "weapon": "Stinger"
+          },
+          {
+            "kills": 1,
+            "weapon": "Classic"
+          },
+          {
+            "kills": 1,
+            "weapon": "Ares"
+          }
+        ]
+      },
+      "hasDetail": true,
+      "syncedAt": "2026-08-24T19:28:39.807Z"
     },
     {
       "matchId": "7bd4d64d-266e-45e8-9d11-6827580ba3a1",
@@ -73220,6 +73645,16 @@
       "lastChange": -22,
       "elo": 1514,
       "map": "Abyss"
+    },
+    {
+      "matchId": "204c6dbf-12d8-4a10-9e01-8b20e4ea649d",
+      "playedAt": "2026-08-24T18:52:03.096Z",
+      "tier": 18,
+      "tierName": "Diamond 1",
+      "rr": 24,
+      "lastChange": 24,
+      "elo": 1524,
+      "map": "Split"
     }
   ]
 }
