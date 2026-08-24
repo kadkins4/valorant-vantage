@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T19:28:41.323Z",
+  "generatedAt": "2026-08-24T20:29:05.618Z",
   "account": {
     "puuid": "150b68cb-4440-5659-af74-e59b91a3d0a8",
     "region": "na",
@@ -12,7 +12,7 @@
       "PC",
       "CONSOLE"
     ],
-    "updated_at": "2026-08-24T18:38:34.38Z"
+    "updated_at": "2026-08-24T20:28:57.617Z"
   },
   "mmr": {
     "account": {
@@ -37,9 +37,9 @@
         "id": 18,
         "name": "Diamond 1"
       },
-      "rr": 24,
-      "last_change": 24,
-      "elo": 1524,
+      "rr": 46,
+      "last_change": 22,
+      "elo": 1546,
       "games_needed_for_rating": 0,
       "rank_protection_shields": 2,
       "leaderboard_placement": null
@@ -3725,16 +3725,20 @@
           "id": "8102cd81-43a0-d0d7-bd59-47b8fe9bed1b",
           "short": "e11a5"
         },
-        "wins": 1,
-        "games": 3,
+        "wins": 2,
+        "games": 4,
         "end_tier": {
           "id": 18,
           "name": "Diamond 1"
         },
-        "end_rr": 24,
+        "end_rr": 46,
         "ranking_schema": "ascendant",
         "leaderboard_placement": null,
         "act_wins": [
+          {
+            "id": 18,
+            "name": "Diamond 1"
+          },
           {
             "id": 18,
             "name": "Diamond 1"
@@ -30183,6 +30187,382 @@
       },
       "hasDetail": true,
       "syncedAt": "2026-05-28T06:36:12.793Z"
+    },
+    {
+      "matchId": "2187fe18-9bc2-4e56-bd33-63cb134389a2",
+      "playedAt": "2026-08-24T19:33:22.950Z",
+      "season": "e11a5",
+      "map": "Lotus",
+      "agent": "Cypher",
+      "tier": 18,
+      "kills": 15,
+      "deaths": 8,
+      "assists": 1,
+      "score": 3667,
+      "shotsHead": 7,
+      "shotsBody": 47,
+      "shotsLeg": 2,
+      "damageMade": 2551,
+      "damageReceived": 1365,
+      "roundsWon": 13,
+      "roundsLost": 6,
+      "won": true,
+      "detail": {
+        "duels": [
+          {
+            "x": 4046,
+            "y": -2342,
+            "ex": 6337,
+            "ey": -4603,
+            "mx": 4046,
+            "my": -2342,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 0,
+            "weapon": "Ghost",
+            "enemyAgent": "Raze"
+          },
+          {
+            "x": 9549,
+            "y": 6395,
+            "ex": 9549,
+            "ey": 6395,
+            "mx": 7349,
+            "my": 5955,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 1,
+            "weapon": "Guardian",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 4553,
+            "y": -1918,
+            "ex": 4553,
+            "ey": -1918,
+            "mx": 5380,
+            "my": -2472,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 2,
+            "weapon": "Vandal",
+            "enemyAgent": "Fade"
+          },
+          {
+            "x": 7277,
+            "y": 4218,
+            "ex": 7277,
+            "ey": 4218,
+            "mx": 3562,
+            "my": 3545,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 3,
+            "weapon": "Vandal",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 5510,
+            "y": -3849,
+            "ex": 5510,
+            "ey": -3849,
+            "mx": 4826,
+            "my": -1938,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 5,
+            "weapon": "Vandal",
+            "enemyAgent": "Veto"
+          },
+          {
+            "x": 7323,
+            "y": 18,
+            "ex": 7323,
+            "ey": 18,
+            "mx": 4628,
+            "my": -63,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 6,
+            "weapon": "Vandal",
+            "enemyAgent": "Fade"
+          },
+          {
+            "x": 6470,
+            "y": -4640,
+            "ex": 6470,
+            "ey": -4640,
+            "mx": 6565,
+            "my": -2146,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 6,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 7725,
+            "y": -4425,
+            "ex": 7725,
+            "ey": -4425,
+            "mx": 4540,
+            "my": -3786,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 7,
+            "weapon": "Vandal",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 7007,
+            "y": 3548,
+            "ex": 7007,
+            "ey": 3548,
+            "mx": 4772,
+            "my": 5356,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 8,
+            "weapon": "Vandal",
+            "enemyAgent": "Fade"
+          },
+          {
+            "x": 4213,
+            "y": 5367,
+            "ex": 5831,
+            "ey": 4558,
+            "mx": 4213,
+            "my": 5367,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 9,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 5363,
+            "y": -3421,
+            "ex": 5363,
+            "ey": -3421,
+            "mx": 1989,
+            "my": -1694,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 10,
+            "weapon": "Vandal",
+            "enemyAgent": "Veto"
+          },
+          {
+            "x": 4161,
+            "y": 2697,
+            "ex": 4757,
+            "ey": 5433,
+            "mx": 4161,
+            "my": 2697,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 10,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 4475,
+            "y": -1876,
+            "ex": 4475,
+            "ey": -1876,
+            "mx": 2689,
+            "my": -2165,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 11,
+            "weapon": "Vandal",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 7004,
+            "y": 6510,
+            "ex": 7004,
+            "ey": 6510,
+            "mx": 6124,
+            "my": 5392,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 11,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 1315,
+            "y": -1148,
+            "ex": 1580,
+            "ey": 1360,
+            "mx": 1315,
+            "my": -1148,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 12,
+            "weapon": "Ghost",
+            "enemyAgent": "Fade"
+          },
+          {
+            "x": 1588,
+            "y": -119,
+            "ex": 2587,
+            "ey": 3107,
+            "mx": 1588,
+            "my": -119,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 13,
+            "weapon": "Guardian",
+            "enemyAgent": "Fade"
+          },
+          {
+            "x": 7417,
+            "y": -23,
+            "ex": 7417,
+            "ey": -23,
+            "mx": 7426,
+            "my": -542,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 14,
+            "weapon": "Phantom",
+            "enemyAgent": "Raze"
+          },
+          {
+            "x": 7356,
+            "y": 351,
+            "ex": 6569,
+            "ey": -433,
+            "mx": 7356,
+            "my": 351,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 15,
+            "opener": true,
+            "weapon": "Vandal",
+            "enemyAgent": "Raze"
+          },
+          {
+            "x": 7060,
+            "y": 4513,
+            "ex": 7060,
+            "ey": 4513,
+            "mx": 5663,
+            "my": 2934,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 16,
+            "weapon": "Stinger",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 5070,
+            "y": 3845,
+            "ex": 4419,
+            "ey": 5445,
+            "mx": 5070,
+            "my": 3845,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 16,
+            "weapon": "Outlaw",
+            "enemyAgent": "Veto"
+          },
+          {
+            "x": 5075,
+            "y": -915,
+            "ex": 4419,
+            "ey": 996,
+            "mx": 5075,
+            "my": -915,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 17,
+            "opener": true,
+            "weapon": "Vandal",
+            "enemyAgent": "Fade"
+          },
+          {
+            "x": 9271,
+            "y": 5424,
+            "ex": 9271,
+            "ey": 5424,
+            "mx": 9717,
+            "my": 5896,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 18,
+            "weapon": "Bucky",
+            "enemyAgent": "Fade"
+          },
+          {
+            "x": 6922,
+            "y": 4726,
+            "ex": 6922,
+            "ey": 4726,
+            "mx": 7886,
+            "my": 4748,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 18,
+            "weapon": "Odin",
+            "enemyAgent": "Veto"
+          }
+        ],
+        "weapons": [
+          {
+            "kills": 10,
+            "weapon": "Vandal"
+          },
+          {
+            "kills": 1,
+            "weapon": "Guardian"
+          },
+          {
+            "kills": 1,
+            "weapon": "Phantom"
+          },
+          {
+            "kills": 1,
+            "weapon": "Stinger"
+          },
+          {
+            "kills": 1,
+            "weapon": "Bucky"
+          },
+          {
+            "kills": 1,
+            "weapon": "Odin"
+          }
+        ]
+      },
+      "hasDetail": true,
+      "syncedAt": "2026-08-24T20:29:04.160Z"
     },
     {
       "matchId": "99e45686-a851-453c-974d-c70d241db51e",
@@ -73655,6 +74035,16 @@
       "lastChange": 24,
       "elo": 1524,
       "map": "Split"
+    },
+    {
+      "matchId": "2187fe18-9bc2-4e56-bd33-63cb134389a2",
+      "playedAt": "2026-08-24T19:33:22.950Z",
+      "tier": 18,
+      "tierName": "Diamond 1",
+      "rr": 46,
+      "lastChange": 22,
+      "elo": 1546,
+      "map": "Lotus"
     }
   ]
 }
