@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-24T07:15:32.603Z",
+  "generatedAt": "2026-10-02T00:32:48.590Z",
   "account": {
     "puuid": "150b68cb-4440-5659-af74-e59b91a3d0a8",
     "region": "na",
-    "account_level": 671,
+    "account_level": 673,
     "name": "ST1CCS",
     "tag": "STONE",
     "card": "7b240a91-4925-8bb6-7812-60b49543e145",
@@ -12,7 +12,7 @@
       "PC",
       "CONSOLE"
     ],
-    "updated_at": "2026-09-24T07:15:24.288Z"
+    "updated_at": "2026-10-02T00:32:31.479Z"
   },
   "mmr": {
     "account": {
@@ -34,12 +34,12 @@
     },
     "current": {
       "tier": {
-        "id": 18,
-        "name": "Diamond 1"
+        "id": 19,
+        "name": "Diamond 2"
       },
-      "rr": 90,
-      "last_change": 22,
-      "elo": 1590,
+      "rr": 35,
+      "last_change": 23,
+      "elo": 1635,
       "games_needed_for_rating": 0,
       "rank_protection_shields": 2,
       "leaderboard_placement": null
@@ -3725,16 +3725,24 @@
           "id": "8102cd81-43a0-d0d7-bd59-47b8fe9bed1b",
           "short": "e11a5"
         },
-        "wins": 4,
-        "games": 6,
+        "wins": 6,
+        "games": 8,
         "end_tier": {
-          "id": 18,
-          "name": "Diamond 1"
+          "id": 19,
+          "name": "Diamond 2"
         },
-        "end_rr": 90,
+        "end_rr": 35,
         "ranking_schema": "ascendant",
         "leaderboard_placement": null,
         "act_wins": [
+          {
+            "id": 19,
+            "name": "Diamond 2"
+          },
+          {
+            "id": 19,
+            "name": "Diamond 2"
+          },
           {
             "id": 18,
             "name": "Diamond 1"
@@ -34808,6 +34816,379 @@
       "syncedAt": "2026-05-28T06:36:12.793Z"
     },
     {
+      "matchId": "73090b09-31fc-43ba-9e37-34ab9fa42f1b",
+      "playedAt": "2026-10-01T22:14:10.379Z",
+      "season": "e11a5",
+      "map": "Abyss",
+      "agent": "Cypher",
+      "tier": 19,
+      "kills": 14,
+      "deaths": 9,
+      "assists": 5,
+      "score": 3943,
+      "shotsHead": 11,
+      "shotsBody": 41,
+      "shotsLeg": 3,
+      "damageMade": 2674,
+      "damageReceived": 1943,
+      "roundsWon": 13,
+      "roundsLost": 5,
+      "won": true,
+      "detail": {
+        "duels": [
+          {
+            "x": 4135,
+            "y": 189,
+            "ex": 4135,
+            "ey": 189,
+            "mx": 3464,
+            "my": 36,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 0,
+            "opener": true,
+            "weapon": "Classic",
+            "enemyAgent": "Iso"
+          },
+          {
+            "x": -5848,
+            "y": 21,
+            "ex": -5848,
+            "ey": 21,
+            "mx": -3856,
+            "my": -847,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 1,
+            "opener": true,
+            "weapon": "Ghost",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -5184,
+            "y": 1551,
+            "ex": -5184,
+            "ey": 1551,
+            "mx": -4044,
+            "my": -952,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 1,
+            "weapon": "Ghost",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 4047,
+            "y": 79,
+            "ex": 4047,
+            "ey": 79,
+            "mx": 3400,
+            "my": 239,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 2,
+            "weapon": "Stinger",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": 4690,
+            "y": 447,
+            "ex": 5236,
+            "ey": 1957,
+            "mx": 4690,
+            "my": 447,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 2,
+            "weapon": "Vandal",
+            "enemyAgent": "Sova"
+          },
+          {
+            "x": 642,
+            "y": 3489,
+            "ex": 642,
+            "ey": 3489,
+            "mx": 2638,
+            "my": 4259,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 3,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 4528,
+            "y": 349,
+            "ex": 4528,
+            "ey": 349,
+            "mx": 3378,
+            "my": -111,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 4,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 3988,
+            "y": 1869,
+            "ex": 3988,
+            "ey": 1869,
+            "mx": 5070,
+            "my": 1404,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 4,
+            "weapon": "Phantom",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": 5070,
+            "y": 1404,
+            "ex": 3816,
+            "ey": 1875,
+            "mx": 5070,
+            "my": 1404,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 4,
+            "weapon": "Vandal",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -491,
+            "y": -372,
+            "ex": -491,
+            "ey": -372,
+            "mx": -478,
+            "my": -1956,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 5,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": -341,
+            "y": -1901,
+            "ex": -341,
+            "ey": -1901,
+            "mx": -1580,
+            "my": -2008,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 5,
+            "weapon": "Phantom",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": 3358,
+            "y": 138,
+            "ex": 4154,
+            "ey": -893,
+            "mx": 3358,
+            "my": 138,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 6,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": -5102,
+            "y": -2057,
+            "ex": -4217,
+            "ey": -245,
+            "mx": -5102,
+            "my": -2057,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 7,
+            "weapon": "Phantom",
+            "enemyAgent": "Sova"
+          },
+          {
+            "x": -4924,
+            "y": -145,
+            "ex": -4924,
+            "ey": -145,
+            "mx": -4959,
+            "my": 1632,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 8,
+            "weapon": "Phantom",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": 94,
+            "y": 2229,
+            "ex": 94,
+            "ey": 2229,
+            "mx": 357,
+            "my": 2164,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 10,
+            "weapon": "Phantom",
+            "enemyAgent": "Sova"
+          },
+          {
+            "x": 209,
+            "y": 2085,
+            "ex": 1017,
+            "ey": 1384,
+            "mx": 209,
+            "my": 2085,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 10,
+            "weapon": "Vandal",
+            "enemyAgent": "Iso"
+          },
+          {
+            "x": 4351,
+            "y": -2939,
+            "ex": 4351,
+            "ey": -2939,
+            "mx": 2686,
+            "my": -2567,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 11,
+            "weapon": "Vandal",
+            "enemyAgent": "Iso"
+          },
+          {
+            "x": 2686,
+            "y": -2567,
+            "ex": 5156,
+            "ey": -2660,
+            "mx": 2686,
+            "my": -2567,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 11,
+            "weapon": "Operator",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -548,
+            "y": 320,
+            "ex": -548,
+            "ey": 320,
+            "mx": -1586,
+            "my": 720,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 13,
+            "weapon": "Ghost",
+            "enemyAgent": "Sova"
+          },
+          {
+            "x": -4231,
+            "y": -952,
+            "ex": -4231,
+            "ey": -952,
+            "mx": -4437,
+            "my": 626,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 13,
+            "weapon": "Ghost",
+            "enemyAgent": "Iso"
+          },
+          {
+            "x": -2570,
+            "y": -763,
+            "ex": -2389,
+            "ey": -2780,
+            "mx": -2570,
+            "my": -763,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 14,
+            "weapon": "Vandal",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 5052,
+            "y": 900,
+            "ex": 5498,
+            "ey": -1270,
+            "mx": 5052,
+            "my": 900,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 16,
+            "weapon": "Phantom",
+            "enemyAgent": "Iso"
+          },
+          {
+            "x": -49640,
+            "y": -1147,
+            "ex": -49966,
+            "ey": 750,
+            "mx": -49640,
+            "my": -1147,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 17,
+            "opener": true,
+            "weapon": "Phantom",
+            "enemyAgent": "Iso"
+          }
+        ],
+        "weapons": [
+          {
+            "kills": 7,
+            "weapon": "Phantom"
+          },
+          {
+            "kills": 4,
+            "weapon": "Ghost"
+          },
+          {
+            "kills": 1,
+            "weapon": "Classic"
+          },
+          {
+            "kills": 1,
+            "weapon": "Stinger"
+          },
+          {
+            "kills": 1,
+            "weapon": "Vandal"
+          }
+        ]
+      },
+      "hasDetail": true,
+      "syncedAt": "2026-10-02T00:32:39.268Z"
+    },
+    {
       "matchId": "d34911ac-e0a5-4b15-b7f7-460923d61a76",
       "playedAt": "2025-11-03T00:30:35.621Z",
       "season": "e10a6",
@@ -35932,6 +36313,270 @@
       },
       "hasDetail": true,
       "syncedAt": "2026-05-28T06:36:12.793Z"
+    },
+    {
+      "matchId": "fb4e7b76-43cb-4a43-9c6f-a5a753dbf8d3",
+      "playedAt": "2026-10-01T21:43:34.346Z",
+      "season": "e11a5",
+      "map": "Split",
+      "agent": "Cypher",
+      "tier": 18,
+      "kills": 6,
+      "deaths": 10,
+      "assists": 5,
+      "score": 2072,
+      "shotsHead": 4,
+      "shotsBody": 26,
+      "shotsLeg": 0,
+      "damageMade": 1459,
+      "damageReceived": 1787,
+      "roundsWon": 13,
+      "roundsLost": 6,
+      "won": true,
+      "detail": {
+        "duels": [
+          {
+            "x": 5269,
+            "y": -6896,
+            "ex": 6404,
+            "ey": -7373,
+            "mx": 5269,
+            "my": -6896,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 0,
+            "weapon": "Ghost",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 5448,
+            "y": -5876,
+            "ex": 5442,
+            "ey": -6133,
+            "mx": 5448,
+            "my": -5876,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 3,
+            "weapon": "Vandal",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": 4871,
+            "y": -4122,
+            "ex": 4276,
+            "ey": -6244,
+            "mx": 4871,
+            "my": -4122,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 4,
+            "weapon": "Phantom",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 1482,
+            "y": -7325,
+            "ex": 1482,
+            "ey": -7325,
+            "mx": 2846,
+            "my": -8355,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 5,
+            "weapon": "Phantom",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": 8083,
+            "y": -6018,
+            "ex": 8083,
+            "ey": -6018,
+            "mx": 7371,
+            "my": -8054,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 5,
+            "weapon": "Phantom",
+            "enemyAgent": "Omen"
+          },
+          {
+            "x": 7072,
+            "y": -6867,
+            "ex": 6461,
+            "ey": -7024,
+            "mx": 7072,
+            "my": -6867,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 5,
+            "weapon": "Vandal",
+            "enemyAgent": "Skye"
+          },
+          {
+            "x": 6650,
+            "y": -4557,
+            "ex": 4146,
+            "ey": -4065,
+            "mx": 6650,
+            "my": -4557,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 6,
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 1652,
+            "y": -4775,
+            "ex": 162,
+            "ey": -4298,
+            "mx": 1652,
+            "my": -4775,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 7,
+            "weapon": "Vandal",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": -1329,
+            "y": -7654,
+            "ex": -1329,
+            "ey": -7654,
+            "mx": -1281,
+            "my": -7376,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 8,
+            "weapon": "Phantom",
+            "enemyAgent": "Skye"
+          },
+          {
+            "x": -1504,
+            "y": -5534,
+            "ex": -681,
+            "ey": -6458,
+            "mx": -1504,
+            "my": -5534,
+            "won": false,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 9,
+            "weapon": "Vandal",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": -3054,
+            "y": -5789,
+            "ex": -3054,
+            "ey": -5789,
+            "mx": -2764,
+            "my": -4078,
+            "won": true,
+            "side": "attack",
+            "agent": "Cypher",
+            "round": 11,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 5250,
+            "y": -8722,
+            "ex": 3718,
+            "ey": -7929,
+            "mx": 5250,
+            "my": -8722,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 12,
+            "weapon": "Ghost",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 6418,
+            "y": -6139,
+            "ex": 6418,
+            "ey": -6139,
+            "mx": 7477,
+            "my": -6944,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 13,
+            "weapon": "Spectre",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": -41,
+            "y": -7648,
+            "ex": -430,
+            "ey": -8239,
+            "mx": -41,
+            "my": -7648,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 16,
+            "weapon": "Vandal",
+            "enemyAgent": "Omen"
+          },
+          {
+            "x": 7629,
+            "y": -7105,
+            "ex": 6113,
+            "ey": -5965,
+            "mx": 7629,
+            "my": -7105,
+            "won": false,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 17,
+            "opener": true,
+            "weapon": "Vandal",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": 6040,
+            "y": -8125,
+            "ex": 6040,
+            "ey": -8125,
+            "mx": 6122,
+            "my": -9057,
+            "won": true,
+            "side": "defense",
+            "agent": "Cypher",
+            "round": 18,
+            "weapon": "Phantom",
+            "enemyAgent": "Phoenix"
+          }
+        ],
+        "weapons": [
+          {
+            "kills": 4,
+            "weapon": "Phantom"
+          },
+          {
+            "kills": 1,
+            "weapon": "Vandal"
+          },
+          {
+            "kills": 1,
+            "weapon": "Spectre"
+          }
+        ]
+      },
+      "hasDetail": true,
+      "syncedAt": "2026-10-02T00:32:39.268Z"
     },
     {
       "matchId": "127ea7e8-bd9d-4a09-81c8-45780d6c65f4",
@@ -75167,6 +75812,26 @@
       "lastChange": 22,
       "elo": 1590,
       "map": "Sunset"
+    },
+    {
+      "matchId": "73090b09-31fc-43ba-9e37-34ab9fa42f1b",
+      "playedAt": "2026-10-01T22:14:10.379Z",
+      "tier": 19,
+      "tierName": "Diamond 2",
+      "rr": 35,
+      "lastChange": 23,
+      "elo": 1635,
+      "map": "Abyss"
+    },
+    {
+      "matchId": "fb4e7b76-43cb-4a43-9c6f-a5a753dbf8d3",
+      "playedAt": "2026-10-01T21:43:34.346Z",
+      "tier": 19,
+      "tierName": "Diamond 2",
+      "rr": 12,
+      "lastChange": 22,
+      "elo": 1612,
+      "map": "Split"
     }
   ]
 }
