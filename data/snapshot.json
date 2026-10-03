@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-02T22:55:32.597Z",
+  "generatedAt": "2026-10-03T01:44:54.482Z",
   "account": {
     "puuid": "150b68cb-4440-5659-af74-e59b91a3d0a8",
     "region": "na",
-    "account_level": 673,
+    "account_level": 674,
     "name": "ST1CCS",
     "tag": "STONE",
     "card": "7b240a91-4925-8bb6-7812-60b49543e145",
@@ -12,7 +12,7 @@
       "PC",
       "CONSOLE"
     ],
-    "updated_at": "2026-10-02T22:55:21.432Z"
+    "updated_at": "2026-10-03T01:44:46.703Z"
   },
   "mmr": {
     "account": {
@@ -34,12 +34,12 @@
     },
     "current": {
       "tier": {
-        "id": 19,
-        "name": "Diamond 2"
+        "id": 18,
+        "name": "Diamond 1"
       },
-      "rr": 0,
-      "last_change": -21,
-      "elo": 1600,
+      "rr": 77,
+      "last_change": -23,
+      "elo": 1577,
       "games_needed_for_rating": 0,
       "rank_protection_shields": 2,
       "leaderboard_placement": null
@@ -3726,12 +3726,12 @@
           "short": "e11a5"
         },
         "wins": 6,
-        "games": 10,
+        "games": 11,
         "end_tier": {
-          "id": 19,
-          "name": "Diamond 2"
+          "id": 18,
+          "name": "Diamond 1"
         },
-        "end_rr": 0,
+        "end_rr": 77,
         "ranking_schema": "ascendant",
         "leaderboard_placement": null,
         "act_wins": [
@@ -44207,6 +44207,373 @@
       "syncedAt": "2026-05-28T06:36:12.793Z"
     },
     {
+      "matchId": "de58fec5-a8ae-42e6-bf21-4c714e88a378",
+      "playedAt": "2026-10-02T22:31:51.119Z",
+      "season": "e11a5",
+      "map": "Split",
+      "agent": "Skye",
+      "tier": 19,
+      "kills": 8,
+      "deaths": 14,
+      "assists": 8,
+      "score": 2610,
+      "shotsHead": 4,
+      "shotsBody": 26,
+      "shotsLeg": 3,
+      "damageMade": 1448,
+      "damageReceived": 2602,
+      "roundsWon": 3,
+      "roundsLost": 13,
+      "won": false,
+      "detail": {
+        "duels": [
+          {
+            "x": 7581,
+            "y": -7548,
+            "ex": 7581,
+            "ey": -7548,
+            "mx": 7273,
+            "my": -6291,
+            "won": true,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 0,
+            "weapon": "Classic",
+            "enemyAgent": "Fade"
+          },
+          {
+            "x": 7663,
+            "y": -6019,
+            "ex": 7931,
+            "ey": -6340,
+            "mx": 7663,
+            "my": -6019,
+            "won": false,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 0,
+            "weapon": "Bandit",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 7155,
+            "y": -6823,
+            "ex": 6515,
+            "ey": -6923,
+            "mx": 7155,
+            "my": -6823,
+            "won": false,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 1,
+            "weapon": "Bandit",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 5442,
+            "y": -6080,
+            "ex": 5442,
+            "ey": -6080,
+            "mx": 5711,
+            "my": -5929,
+            "won": true,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 2,
+            "opener": true,
+            "weapon": "Bulldog",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 5712,
+            "y": -5927,
+            "ex": 6362,
+            "ey": -7487,
+            "mx": 5712,
+            "my": -5927,
+            "won": false,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 2,
+            "weapon": "Bandit",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 2106,
+            "y": -3403,
+            "ex": 2423,
+            "ey": -3666,
+            "mx": 2106,
+            "my": -3403,
+            "won": false,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 3,
+            "weapon": "Phantom",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 915,
+            "y": -2195,
+            "ex": 2421,
+            "ey": -4001,
+            "mx": 915,
+            "my": -2195,
+            "won": false,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 4,
+            "opener": true,
+            "weapon": "Phantom",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 6508,
+            "y": -1655,
+            "ex": 6508,
+            "ey": -1655,
+            "mx": 6821,
+            "my": -2946,
+            "won": true,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 5,
+            "weapon": "Phantom",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 7038,
+            "y": -2902,
+            "ex": 6899,
+            "ey": -4121,
+            "mx": 7038,
+            "my": -2902,
+            "won": false,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 5,
+            "weapon": "Vandal",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 6320,
+            "y": -4229,
+            "ex": 6336,
+            "ey": -7885,
+            "mx": 6320,
+            "my": -4229,
+            "won": false,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 6,
+            "weapon": "Vandal",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 1612,
+            "y": -2317,
+            "ex": 2271,
+            "ey": -5844,
+            "mx": 1612,
+            "my": -2317,
+            "won": false,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 7,
+            "weapon": "Phantom",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -2325,
+            "y": -5703,
+            "ex": -1136,
+            "ey": -5437,
+            "mx": -2325,
+            "my": -5703,
+            "won": false,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 8,
+            "weapon": "Vandal",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 1554,
+            "y": -4752,
+            "ex": 1554,
+            "ey": -4752,
+            "mx": 2436,
+            "my": -2345,
+            "won": true,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 9,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 3791,
+            "y": -2859,
+            "ex": 2113,
+            "ey": -2850,
+            "mx": 3791,
+            "my": -2859,
+            "won": false,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 9,
+            "weapon": "Phantom",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 6240,
+            "y": -4362,
+            "ex": 6054,
+            "ey": -8717,
+            "mx": 6240,
+            "my": -4362,
+            "won": false,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 10,
+            "weapon": "Operator",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": -2742,
+            "y": -7433,
+            "ex": -2742,
+            "ey": -7433,
+            "mx": -2842,
+            "my": -4641,
+            "won": true,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 11,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": -2999,
+            "y": -4621,
+            "ex": -2450,
+            "ey": -7028,
+            "mx": -2999,
+            "my": -4621,
+            "won": false,
+            "side": "attack",
+            "agent": "Skye",
+            "round": 11,
+            "weapon": "Warden",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": -739,
+            "y": -5978,
+            "ex": -739,
+            "ey": -5978,
+            "mx": 755,
+            "my": -4573,
+            "won": true,
+            "side": "defense",
+            "agent": "Skye",
+            "round": 13,
+            "weapon": "Stinger",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 33,
+            "y": -5531,
+            "ex": -3441,
+            "ey": -7425,
+            "mx": 33,
+            "my": -5531,
+            "won": false,
+            "side": "defense",
+            "agent": "Skye",
+            "round": 13,
+            "weapon": "Warden",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 6319,
+            "y": -3832,
+            "ex": 6319,
+            "ey": -3832,
+            "mx": 5993,
+            "my": -4129,
+            "won": true,
+            "side": "defense",
+            "agent": "Skye",
+            "round": 14,
+            "opener": true,
+            "weapon": "Judge",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 7036,
+            "y": -4957,
+            "ex": 7036,
+            "ey": -4957,
+            "mx": 6119,
+            "my": -3697,
+            "won": true,
+            "side": "defense",
+            "agent": "Skye",
+            "round": 14,
+            "weapon": "Warden",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -2344,
+            "y": -7022,
+            "ex": -2870,
+            "ey": -4761,
+            "mx": -2344,
+            "my": -7022,
+            "won": false,
+            "side": "defense",
+            "agent": "Skye",
+            "round": 15,
+            "weapon": "Vandal",
+            "enemyAgent": "Clove"
+          }
+        ],
+        "weapons": [
+          {
+            "kills": 2,
+            "weapon": "Vandal"
+          },
+          {
+            "kills": 1,
+            "weapon": "Classic"
+          },
+          {
+            "kills": 1,
+            "weapon": "Bulldog"
+          },
+          {
+            "kills": 1,
+            "weapon": "Phantom"
+          },
+          {
+            "kills": 1,
+            "weapon": "Stinger"
+          },
+          {
+            "kills": 1,
+            "weapon": "Judge"
+          },
+          {
+            "kills": 1,
+            "weapon": "Warden"
+          }
+        ]
+      },
+      "hasDetail": true,
+      "syncedAt": "2026-10-03T01:44:52.856Z"
+    },
+    {
       "matchId": "0ecd4c86-e0ae-4e59-b456-d5282c77d47e",
       "playedAt": "2024-10-25T22:33:19.369Z",
       "season": "e9a3",
@@ -76546,6 +76913,16 @@
       "lastChange": -20,
       "elo": 1615,
       "map": "Lotus"
+    },
+    {
+      "matchId": "de58fec5-a8ae-42e6-bf21-4c714e88a378",
+      "playedAt": "2026-10-02T22:31:51.119Z",
+      "tier": 18,
+      "tierName": "Diamond 1",
+      "rr": 77,
+      "lastChange": -23,
+      "elo": 1577,
+      "map": "Split"
     }
   ]
 }
