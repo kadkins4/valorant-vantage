@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-03T01:44:54.482Z",
+  "generatedAt": "2026-10-09T22:19:36.003Z",
   "account": {
     "puuid": "150b68cb-4440-5659-af74-e59b91a3d0a8",
     "region": "na",
-    "account_level": 674,
+    "account_level": 676,
     "name": "ST1CCS",
     "tag": "STONE",
     "card": "7b240a91-4925-8bb6-7812-60b49543e145",
@@ -12,7 +12,7 @@
       "PC",
       "CONSOLE"
     ],
-    "updated_at": "2026-10-03T01:44:46.703Z"
+    "updated_at": "2026-10-09T22:19:26.059Z"
   },
   "mmr": {
     "account": {
@@ -22,13 +22,13 @@
     },
     "peak": {
       "season": {
-        "id": "34093c29-4306-43de-452f-3f944bde22be",
-        "short": "e6a2"
+        "id": "4cb622e1-4244-6da3-7276-8daaf1c01be2",
+        "short": "e3a2"
       },
-      "ranking_schema": "ascendant",
+      "ranking_schema": "base",
       "tier": {
-        "id": 23,
-        "name": "Ascendant 3"
+        "id": 21,
+        "name": "Immortal 1"
       },
       "rr": 0
     },
@@ -37,11 +37,14 @@
         "id": 18,
         "name": "Diamond 1"
       },
-      "rr": 77,
-      "last_change": -23,
-      "elo": 1577,
+      "rr": 72,
+      "last_change": 16,
+      "elo": 1572,
       "games_needed_for_rating": 0,
       "rank_protection_shields": 2,
+      "is_at_rank_protected_tier": true,
+      "rank_protection_status": "Full",
+      "games_needed_for_leaderboard": 0,
       "leaderboard_placement": null
     },
     "seasonal": [
@@ -228,7 +231,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 42,
+        "act_rank": {
+          "id": 16,
+          "name": "Platinum 2"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "DIAMOND": {
+            "total": 1,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -413,7 +428,19 @@
             "id": 14,
             "name": "Gold 3"
           }
-        ]
+        ],
+        "wins_with_placements": 42,
+        "act_rank": {
+          "id": 18,
+          "name": "Diamond 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "DIAMOND": {
+            "total": 1,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
@@ -734,7 +761,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 76,
+        "act_rank": {
+          "id": 18,
+          "name": "Diamond 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "DIAMOND": {
+            "total": 1,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -863,7 +902,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 28,
+        "act_rank": {
+          "id": 18,
+          "name": "Diamond 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "DIAMOND": {
+            "total": 2,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
@@ -1080,7 +1131,19 @@
             "id": 15,
             "name": "Platinum 1"
           }
-        ]
+        ],
+        "wins_with_placements": 50,
+        "act_rank": {
+          "id": 18,
+          "name": "Diamond 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "DIAMOND": {
+            "total": 2,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -1173,7 +1236,19 @@
             "id": 17,
             "name": "Platinum 3"
           }
-        ]
+        ],
+        "wins_with_placements": 19,
+        "act_rank": {
+          "id": 18,
+          "name": "Diamond 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "DIAMOND": {
+            "total": 2,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -1350,7 +1425,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 40,
+        "act_rank": {
+          "id": 19,
+          "name": "Diamond 2"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "IMMORTAL": {
+            "total": 1,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -1434,7 +1521,19 @@
             "id": 19,
             "name": "Diamond 2"
           }
-        ]
+        ],
+        "wins_with_placements": 16,
+        "act_rank": {
+          "id": 21,
+          "name": "Immortal 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "IMMORTAL": {
+            "total": 1,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
@@ -1523,7 +1622,19 @@
             "id": 20,
             "name": "Diamond 3"
           }
-        ]
+        ],
+        "wins_with_placements": 18,
+        "act_rank": {
+          "id": 21,
+          "name": "Immortal 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "IMMORTAL": {
+            "total": 1,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -1592,7 +1703,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 13,
+        "act_rank": {
+          "id": 20,
+          "name": "Diamond 3"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "IMMORTAL": {
+            "total": 2,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -1684,7 +1807,19 @@
             "id": 19,
             "name": "Diamond 2"
           }
-        ]
+        ],
+        "wins_with_placements": 18,
+        "act_rank": {
+          "id": 21,
+          "name": "Immortal 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "IMMORTAL": {
+            "total": 2,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
@@ -1709,7 +1844,19 @@
             "id": 20,
             "name": "Diamond 3"
           }
-        ]
+        ],
+        "wins_with_placements": 2,
+        "act_rank": {
+          "id": 0,
+          "name": "Unrated"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "IMMORTAL": {
+            "total": 2,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -1790,7 +1937,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 16,
+        "act_rank": {
+          "id": 20,
+          "name": "Diamond 3"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 1,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -1899,7 +2058,19 @@
             "id": 20,
             "name": "Diamond 3"
           }
-        ]
+        ],
+        "wins_with_placements": 23,
+        "act_rank": {
+          "id": 21,
+          "name": "Ascendant 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 1,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -1988,7 +2159,19 @@
             "id": 21,
             "name": "Ascendant 1"
           }
-        ]
+        ],
+        "wins_with_placements": 18,
+        "act_rank": {
+          "id": 22,
+          "name": "Ascendant 2"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 1,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
@@ -2073,7 +2256,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 17,
+        "act_rank": {
+          "id": 21,
+          "name": "Ascendant 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 2,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -2146,7 +2341,19 @@
             "id": 21,
             "name": "Ascendant 1"
           }
-        ]
+        ],
+        "wins_with_placements": 14,
+        "act_rank": {
+          "id": 23,
+          "name": "Ascendant 3"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 2,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
@@ -2219,7 +2426,19 @@
             "id": 23,
             "name": "Ascendant 3"
           }
-        ]
+        ],
+        "wins_with_placements": 14,
+        "act_rank": {
+          "id": 23,
+          "name": "Ascendant 3"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 2,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -2324,7 +2543,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 22,
+        "act_rank": {
+          "id": 22,
+          "name": "Ascendant 2"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 3,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -2381,7 +2612,19 @@
             "id": 22,
             "name": "Ascendant 2"
           }
-        ]
+        ],
+        "wins_with_placements": 10,
+        "act_rank": {
+          "id": 22,
+          "name": "Ascendant 2"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 3,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -2434,7 +2677,19 @@
             "id": 23,
             "name": "Ascendant 3"
           }
-        ]
+        ],
+        "wins_with_placements": 9,
+        "act_rank": {
+          "id": 23,
+          "name": "Ascendant 3"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 3,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
@@ -2507,7 +2762,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 14,
+        "act_rank": {
+          "id": 20,
+          "name": "Diamond 3"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 4,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -2576,7 +2843,19 @@
             "id": 19,
             "name": "Diamond 2"
           }
-        ]
+        ],
+        "wins_with_placements": 13,
+        "act_rank": {
+          "id": 21,
+          "name": "Ascendant 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 4,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -2661,7 +2940,19 @@
             "id": 21,
             "name": "Ascendant 1"
           }
-        ]
+        ],
+        "wins_with_placements": 17,
+        "act_rank": {
+          "id": 22,
+          "name": "Ascendant 2"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 4,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
@@ -2706,7 +2997,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 7,
+        "act_rank": {
+          "id": 0,
+          "name": "Unrated"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 5,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -2775,7 +3078,19 @@
             "id": 19,
             "name": "Diamond 2"
           }
-        ]
+        ],
+        "wins_with_placements": 13,
+        "act_rank": {
+          "id": 20,
+          "name": "Diamond 3"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 5,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -2856,7 +3171,19 @@
             "id": 20,
             "name": "Diamond 3"
           }
-        ]
+        ],
+        "wins_with_placements": 16,
+        "act_rank": {
+          "id": 22,
+          "name": "Ascendant 2"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 5,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
@@ -2929,7 +3256,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 14,
+        "act_rank": {
+          "id": 21,
+          "name": "Ascendant 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 6,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
@@ -2962,7 +3301,19 @@
             "id": 21,
             "name": "Ascendant 1"
           }
-        ]
+        ],
+        "wins_with_placements": 4,
+        "act_rank": {
+          "id": 0,
+          "name": "Unrated"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 6,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -3043,7 +3394,19 @@
             "id": 21,
             "name": "Ascendant 1"
           }
-        ]
+        ],
+        "wins_with_placements": 16,
+        "act_rank": {
+          "id": 21,
+          "name": "Ascendant 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 6,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -3176,7 +3539,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 29,
+        "act_rank": {
+          "id": 21,
+          "name": "Ascendant 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 7,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -3293,7 +3668,19 @@
             "id": 20,
             "name": "Diamond 3"
           }
-        ]
+        ],
+        "wins_with_placements": 25,
+        "act_rank": {
+          "id": 21,
+          "name": "Ascendant 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 7,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -3442,7 +3829,19 @@
             "id": 21,
             "name": "Ascendant 1"
           }
-        ]
+        ],
+        "wins_with_placements": 33,
+        "act_rank": {
+          "id": 23,
+          "name": "Ascendant 3"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 7,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
@@ -3571,7 +3970,19 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 28,
+        "act_rank": {
+          "id": 21,
+          "name": "Ascendant 1"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 8,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -3620,7 +4031,19 @@
             "id": 20,
             "name": "Diamond 3"
           }
-        ]
+        ],
+        "wins_with_placements": 8,
+        "act_rank": {
+          "id": 0,
+          "name": "Unrated"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 8,
+            "delta": 0
+          }
+        }
       },
       {
         "season": {
@@ -3665,7 +4088,19 @@
             "id": 21,
             "name": "Ascendant 1"
           }
-        ]
+        ],
+        "wins_with_placements": 7,
+        "act_rank": {
+          "id": 0,
+          "name": "Unrated"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "ASCENDANT": {
+            "total": 8,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
@@ -3718,20 +4153,32 @@
             "id": 0,
             "name": "Unrated"
           }
-        ]
+        ],
+        "wins_with_placements": 9,
+        "act_rank": {
+          "id": 0,
+          "name": "Unrated"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "DIAMOND": {
+            "total": 3,
+            "delta": 1
+          }
+        }
       },
       {
         "season": {
           "id": "8102cd81-43a0-d0d7-bd59-47b8fe9bed1b",
           "short": "e11a5"
         },
-        "wins": 6,
-        "games": 11,
+        "wins": 7,
+        "games": 13,
         "end_tier": {
           "id": 18,
           "name": "Diamond 1"
         },
-        "end_rr": 77,
+        "end_rr": 72,
         "ranking_schema": "ascendant",
         "leaderboard_placement": null,
         "act_wins": [
@@ -3758,10 +4205,76 @@
           {
             "id": 18,
             "name": "Diamond 1"
+          },
+          {
+            "id": 18,
+            "name": "Diamond 1"
           }
-        ]
+        ],
+        "wins_with_placements": 7,
+        "act_rank": {
+          "id": 0,
+          "name": "Unrated"
+        },
+        "games_needed_for_rating": 0,
+        "prestige": {
+          "DIAMOND": {
+            "total": 3,
+            "delta": 0
+          }
+        }
       }
-    ]
+    ],
+    "lifetime_prestige": {
+      "IMMORTAL": {
+        "count": 2
+      },
+      "DIAMOND": {
+        "count": 3
+      },
+      "ASCENDANT": {
+        "count": 8
+      }
+    },
+    "ranked_state": {
+      "is_act_rank_badge_hidden": false,
+      "is_leaderboard_anonymized": false
+    },
+    "latest_update": {
+      "tier": {
+        "id": 18,
+        "name": "Diamond 1"
+      },
+      "match_id": "9cd00021-9c03-4757-93bd-b330ace27c1b",
+      "map": {
+        "id": "d960549e-485c-e861-8d71-aa9d1aed12a2",
+        "name": "Split"
+      },
+      "season": {
+        "id": "8102cd81-43a0-d0d7-bd59-47b8fe9bed1b",
+        "short": "e11a5"
+      },
+      "rr": 72,
+      "last_change": 16,
+      "elo": 1572,
+      "refunded_rr": 0,
+      "was_derank_protected": false,
+      "date": "2026-10-09T20:00:45.671Z",
+      "queue_id": "competitive",
+      "match_length": 2603344,
+      "tier_before_update": {
+        "id": 18,
+        "name": "Diamond 1"
+      },
+      "rr_before_update": 56,
+      "rr_performance_bonus": 0,
+      "new_map_incentive_rr_forgiven": 0,
+      "competitive_movement": "MOVEMENT_UNKNOWN",
+      "afk_penalty": 0,
+      "rr_penalty": 0,
+      "is_placement_match": false,
+      "was_derank_protection_replenished": false
+    }
   },
   "matches": [
     {
@@ -44574,6 +45087,608 @@
       "syncedAt": "2026-10-03T01:44:52.856Z"
     },
     {
+      "matchId": "9cd00021-9c03-4757-93bd-b330ace27c1b",
+      "playedAt": "2026-10-09T20:00:45.671Z",
+      "season": "e11a5",
+      "map": "Split",
+      "agent": "Omen",
+      "tier": 18,
+      "kills": 19,
+      "deaths": 21,
+      "assists": 8,
+      "score": 5588,
+      "shotsHead": 15,
+      "shotsBody": 56,
+      "shotsLeg": 5,
+      "damageMade": 3939,
+      "damageReceived": 4141,
+      "roundsWon": 14,
+      "roundsLost": 12,
+      "won": true,
+      "detail": {
+        "duels": [
+          {
+            "x": -906,
+            "y": -7024,
+            "ex": -906,
+            "ey": -7024,
+            "mx": -1574,
+            "my": -6771,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 1,
+            "weapon": "Classic",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": -945,
+            "y": -7052,
+            "ex": -862,
+            "ey": -6822,
+            "mx": -945,
+            "my": -7052,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 1,
+            "weapon": "Classic",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": -2997,
+            "y": -6691,
+            "ex": -2997,
+            "ey": -6691,
+            "mx": -3211,
+            "my": -6677,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 2,
+            "weapon": "Classic",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": -3202,
+            "y": -6766,
+            "ex": -2339,
+            "ey": -6527,
+            "mx": -3202,
+            "my": -6766,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 2,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 1753,
+            "y": -4540,
+            "ex": 1711,
+            "ey": -3734,
+            "mx": 1753,
+            "my": -4540,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 3,
+            "opener": true,
+            "weapon": "Sheriff",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -3447,
+            "y": -5153,
+            "ex": -3447,
+            "ey": -5607,
+            "mx": -3447,
+            "my": -5153,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 4,
+            "weapon": "Phantom",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": 5815,
+            "y": -6882,
+            "ex": 5815,
+            "ey": -6882,
+            "mx": 5662,
+            "my": -6490,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 5,
+            "weapon": "Classic",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": 7692,
+            "y": -6146,
+            "ex": 7692,
+            "ey": -6146,
+            "mx": 7087,
+            "my": -6443,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 5,
+            "weapon": "Classic",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 8231,
+            "y": -6687,
+            "ex": 5015,
+            "ey": -6809,
+            "mx": 8231,
+            "my": -6687,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 5,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": -3057,
+            "y": -3919,
+            "ex": -3057,
+            "ey": -3919,
+            "mx": -2321,
+            "my": -5699,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 6,
+            "weapon": "Phantom",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 3297,
+            "y": -5422,
+            "ex": 3297,
+            "ey": -5422,
+            "mx": 3331,
+            "my": -6163,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 6,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 2169,
+            "y": -5010,
+            "ex": 2307,
+            "ey": -5814,
+            "mx": 2169,
+            "my": -5010,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 7,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": -2570,
+            "y": -6356,
+            "ex": -2570,
+            "ey": -6356,
+            "mx": -3446,
+            "my": -7167,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 8,
+            "weapon": "Phantom",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -2628,
+            "y": -6179,
+            "ex": -2628,
+            "ey": -6179,
+            "mx": -3415,
+            "my": -7191,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 8,
+            "weapon": "Phantom",
+            "enemyAgent": "Skye"
+          },
+          {
+            "x": -3028,
+            "y": -7190,
+            "ex": -3028,
+            "ey": -7190,
+            "mx": -3444,
+            "my": -6671,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 9,
+            "weapon": "Phantom",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -3405,
+            "y": -6745,
+            "ex": -2219,
+            "ey": -6973,
+            "mx": -3405,
+            "my": -6745,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 9,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 2553,
+            "y": -4042,
+            "ex": 2553,
+            "ey": -4042,
+            "mx": 2058,
+            "my": -4548,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 10,
+            "weapon": "Phantom",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 1810,
+            "y": -2478,
+            "ex": 2238,
+            "ey": -5855,
+            "mx": 1810,
+            "my": -2478,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 10,
+            "weapon": "Phantom",
+            "enemyAgent": "Skye"
+          },
+          {
+            "x": 1642,
+            "y": -4104,
+            "ex": 1642,
+            "ey": -4104,
+            "mx": 2651,
+            "my": -5643,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 11,
+            "weapon": "Phantom",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": -3032,
+            "y": -4949,
+            "ex": -3032,
+            "ey": -4949,
+            "mx": -3090,
+            "my": -5197,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 11,
+            "weapon": "Phantom",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -2197,
+            "y": -3716,
+            "ex": -2197,
+            "ey": -3716,
+            "mx": -3121,
+            "my": -5180,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 11,
+            "weapon": "Phantom",
+            "enemyAgent": "Skye"
+          },
+          {
+            "x": 5462,
+            "y": -5542,
+            "ex": 6358,
+            "ey": -5529,
+            "mx": 5462,
+            "my": -5542,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 12,
+            "weapon": "Classic",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 6201,
+            "y": -4517,
+            "ex": 4221,
+            "ey": -4108,
+            "mx": 6201,
+            "my": -4517,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 13,
+            "opener": true,
+            "weapon": "Ghost",
+            "enemyAgent": "Skye"
+          },
+          {
+            "x": 5485,
+            "y": -6643,
+            "ex": 5213,
+            "ey": -6844,
+            "mx": 5485,
+            "my": -6643,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 14,
+            "weapon": "Stinger",
+            "enemyAgent": "Skye"
+          },
+          {
+            "x": 1949,
+            "y": -4332,
+            "ex": 2348,
+            "ey": -5617,
+            "mx": 1949,
+            "my": -4332,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 15,
+            "weapon": "Phantom",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": 4584,
+            "y": -5830,
+            "ex": 4584,
+            "ey": -5830,
+            "mx": 4063,
+            "my": -5667,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 16,
+            "weapon": "Stinger",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": 4906,
+            "y": -4438,
+            "ex": 5864,
+            "ey": -4588,
+            "mx": 4906,
+            "my": -4438,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 16,
+            "weapon": "Phantom",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 6205,
+            "y": -4840,
+            "ex": 6205,
+            "ey": -4840,
+            "mx": 5642,
+            "my": -5057,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 17,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 7033,
+            "y": -4172,
+            "ex": 6746,
+            "ey": -2812,
+            "mx": 7033,
+            "my": -4172,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 17,
+            "weapon": "Vandal",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": -3447,
+            "y": -7462,
+            "ex": -3447,
+            "ey": -7462,
+            "mx": -3447,
+            "my": -7776,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 18,
+            "weapon": "Phantom",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": -2779,
+            "y": -6181,
+            "ex": -2779,
+            "ey": -6181,
+            "mx": -3395,
+            "my": -7779,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 18,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": -2749,
+            "y": -5056,
+            "ex": -170,
+            "ey": -5846,
+            "mx": -2749,
+            "my": -5056,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 18,
+            "weapon": "Vandal",
+            "enemyAgent": "Skye"
+          },
+          {
+            "x": -1768,
+            "y": -3663,
+            "ex": -1768,
+            "ey": -3663,
+            "mx": -2855,
+            "my": -4311,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 19,
+            "weapon": "Phantom",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": -2562,
+            "y": -6200,
+            "ex": -3440,
+            "ey": -7399,
+            "mx": -2562,
+            "my": -6200,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 19,
+            "weapon": "Phantom",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": 5128,
+            "y": -6639,
+            "ex": 5128,
+            "ey": -6639,
+            "mx": 3849,
+            "my": -6039,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 20,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 4164,
+            "y": -6208,
+            "ex": 4661,
+            "ey": -7618,
+            "mx": 4164,
+            "my": -6208,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 20,
+            "weapon": "Phantom",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": -2408,
+            "y": -3736,
+            "ex": -3310,
+            "ey": -5541,
+            "mx": -2408,
+            "my": -3736,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 21,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": -1378,
+            "y": -6108,
+            "ex": -1595,
+            "ey": -6441,
+            "mx": -1378,
+            "my": -6108,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 22,
+            "weapon": "Odin",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 7650,
+            "y": -6147,
+            "ex": 7876,
+            "ey": -6161,
+            "mx": 7650,
+            "my": -6147,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 24,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": -414,
+            "y": -5446,
+            "ex": -485,
+            "ey": -4860,
+            "mx": -414,
+            "my": -5446,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 25,
+            "weapon": "Vandal",
+            "enemyAgent": "Chamber"
+          }
+        ],
+        "weapons": [
+          {
+            "kills": 14,
+            "weapon": "Phantom"
+          },
+          {
+            "kills": 4,
+            "weapon": "Classic"
+          },
+          {
+            "kills": 1,
+            "weapon": "Stinger"
+          }
+        ]
+      },
+      "hasDetail": true,
+      "syncedAt": "2026-10-09T22:19:33.162Z"
+    },
+    {
       "matchId": "0ecd4c86-e0ae-4e59-b456-d5282c77d47e",
       "playedAt": "2024-10-25T22:33:19.369Z",
       "season": "e9a3",
@@ -46826,6 +47941,442 @@
       },
       "hasDetail": true,
       "syncedAt": "2026-05-28T06:36:12.793Z"
+    },
+    {
+      "matchId": "980b5e31-c2c0-492f-b5ab-118c3ef18ead",
+      "playedAt": "2026-10-09T19:27:15.543Z",
+      "season": "e11a5",
+      "map": "Haven",
+      "agent": "Omen",
+      "tier": 18,
+      "kills": 14,
+      "deaths": 14,
+      "assists": 7,
+      "score": 3746,
+      "shotsHead": 13,
+      "shotsBody": 27,
+      "shotsLeg": 3,
+      "damageMade": 2551,
+      "damageReceived": 2498,
+      "roundsWon": 8,
+      "roundsLost": 13,
+      "won": false,
+      "detail": {
+        "duels": [
+          {
+            "x": 109,
+            "y": -9994,
+            "ex": 1345,
+            "ey": -9799,
+            "mx": 109,
+            "my": -9994,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 0,
+            "weapon": "Sheriff",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": -212,
+            "y": -8491,
+            "ex": -212,
+            "ey": -8491,
+            "mx": 343,
+            "my": -7355,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 1,
+            "weapon": "Classic",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": -357,
+            "y": -7139,
+            "ex": 1440,
+            "ey": -6397,
+            "mx": -357,
+            "my": -7139,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 1,
+            "weapon": "Sheriff",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 6344,
+            "y": -10346,
+            "ex": 6344,
+            "ey": -10346,
+            "mx": 6573,
+            "my": -10938,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 2,
+            "weapon": "Vandal",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 7151,
+            "y": -9750,
+            "ex": 7151,
+            "ey": -9750,
+            "mx": 6430,
+            "my": -10874,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 2,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": 5428,
+            "y": -9818,
+            "ex": 5428,
+            "ey": -9818,
+            "mx": 6962,
+            "my": -10109,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 2,
+            "weapon": "Vandal",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": -2377,
+            "y": -4814,
+            "ex": -2712,
+            "ey": -8917,
+            "mx": -2377,
+            "my": -4814,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 3,
+            "weapon": "Phantom",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": -365,
+            "y": -9230,
+            "ex": -365,
+            "ey": -9230,
+            "mx": -575,
+            "my": -10857,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 4,
+            "weapon": "Vandal",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": -2477,
+            "y": -5699,
+            "ex": -2573,
+            "ey": -10164,
+            "mx": -2477,
+            "my": -5699,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 6,
+            "weapon": "Vandal",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": 5839,
+            "y": -8093,
+            "ex": 6844,
+            "ey": -10433,
+            "mx": 5839,
+            "my": -8093,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 7,
+            "weapon": "Vandal",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": -2027,
+            "y": -9740,
+            "ex": -2027,
+            "ey": -9740,
+            "mx": -1360,
+            "my": -9305,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 8,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": -2645,
+            "y": -9436,
+            "ex": -1014,
+            "ey": -10691,
+            "mx": -2645,
+            "my": -9436,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 8,
+            "weapon": "Vandal",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 324,
+            "y": -9390,
+            "ex": 324,
+            "ey": -9390,
+            "mx": -778,
+            "my": -10717,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 9,
+            "weapon": "Phantom",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": 430,
+            "y": -9797,
+            "ex": 430,
+            "ey": -9797,
+            "mx": -592,
+            "my": -10442,
+            "won": true,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 9,
+            "weapon": "Phantom",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": -97,
+            "y": -6827,
+            "ex": 434,
+            "ey": -7656,
+            "mx": -97,
+            "my": -6827,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 10,
+            "weapon": "Phantom",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": 2023,
+            "y": -4428,
+            "ex": 3412,
+            "ey": -9567,
+            "mx": 2023,
+            "my": -4428,
+            "won": false,
+            "side": "attack",
+            "agent": "Omen",
+            "round": 11,
+            "weapon": "Hunter's Fury",
+            "enemyAgent": "Sova"
+          },
+          {
+            "x": 6416,
+            "y": -10457,
+            "ex": 6416,
+            "ey": -10457,
+            "mx": 6213,
+            "my": -9595,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 12,
+            "weapon": "Classic",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 7352,
+            "y": -10121,
+            "ex": 7352,
+            "ey": -10121,
+            "mx": 6114,
+            "my": -9922,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 12,
+            "weapon": "Classic",
+            "enemyAgent": "Sova"
+          },
+          {
+            "x": 303,
+            "y": -8701,
+            "ex": 303,
+            "ey": -8701,
+            "mx": -1377,
+            "my": -8166,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 13,
+            "weapon": "Stinger",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": -61,
+            "y": -9059,
+            "ex": 457,
+            "ey": -7938,
+            "mx": -61,
+            "my": -9059,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 14,
+            "weapon": "Vandal",
+            "enemyAgent": "Reyna"
+          },
+          {
+            "x": -2784,
+            "y": -7679,
+            "ex": -2784,
+            "ey": -7679,
+            "mx": -2496,
+            "my": -10151,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 15,
+            "weapon": "Phantom",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": -764,
+            "y": -10606,
+            "ex": -2972,
+            "ey": -9329,
+            "mx": -764,
+            "my": -10606,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 15,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 6412,
+            "y": -10793,
+            "ex": 6412,
+            "ey": -10793,
+            "mx": 6306,
+            "my": -9611,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 16,
+            "weapon": "Phantom",
+            "enemyAgent": "Sova"
+          },
+          {
+            "x": -130,
+            "y": -5935,
+            "ex": 1284,
+            "ey": -4646,
+            "mx": -130,
+            "my": -5935,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 17,
+            "weapon": "Phantom",
+            "enemyAgent": "Sage"
+          },
+          {
+            "x": 4850,
+            "y": -11657,
+            "ex": 4850,
+            "ey": -11657,
+            "mx": 5103,
+            "my": -11666,
+            "won": true,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 18,
+            "weapon": "Vandal",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 4699,
+            "y": -10442,
+            "ex": 5855,
+            "ey": -10957,
+            "mx": 4699,
+            "my": -10442,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 18,
+            "weapon": "Vandal",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": -755,
+            "y": -8242,
+            "ex": 172,
+            "ey": -8637,
+            "mx": -755,
+            "my": -8242,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 19,
+            "weapon": "Vandal",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 649,
+            "y": -7957,
+            "ex": -2786,
+            "ey": -8774,
+            "mx": 649,
+            "my": -7957,
+            "won": false,
+            "side": "defense",
+            "agent": "Omen",
+            "round": 20,
+            "weapon": "Phantom",
+            "enemyAgent": "Sage"
+          }
+        ],
+        "weapons": [
+          {
+            "kills": 6,
+            "weapon": "Vandal"
+          },
+          {
+            "kills": 4,
+            "weapon": "Phantom"
+          },
+          {
+            "kills": 3,
+            "weapon": "Classic"
+          },
+          {
+            "kills": 1,
+            "weapon": "Stinger"
+          }
+        ]
+      },
+      "hasDetail": true,
+      "syncedAt": "2026-10-09T22:19:33.162Z"
     },
     {
       "matchId": "45421f81-dcc8-42de-b223-f0431a955db3",
@@ -76923,6 +78474,26 @@
       "lastChange": -23,
       "elo": 1577,
       "map": "Split"
+    },
+    {
+      "matchId": "9cd00021-9c03-4757-93bd-b330ace27c1b",
+      "playedAt": "2026-10-09T20:00:45.671Z",
+      "tier": 18,
+      "tierName": "Diamond 1",
+      "rr": 72,
+      "lastChange": 16,
+      "elo": 1572,
+      "map": "Split"
+    },
+    {
+      "matchId": "980b5e31-c2c0-492f-b5ab-118c3ef18ead",
+      "playedAt": "2026-10-09T19:27:15.543Z",
+      "tier": 18,
+      "tierName": "Diamond 1",
+      "rr": 56,
+      "lastChange": -21,
+      "elo": 1556,
+      "map": "Haven"
     }
   ]
 }
