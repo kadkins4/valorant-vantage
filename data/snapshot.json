@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T22:19:36.003Z",
+  "generatedAt": "2026-10-10T15:44:27.950Z",
   "account": {
     "puuid": "150b68cb-4440-5659-af74-e59b91a3d0a8",
     "region": "na",
@@ -12,7 +12,7 @@
       "PC",
       "CONSOLE"
     ],
-    "updated_at": "2026-10-09T22:19:26.059Z"
+    "updated_at": "2026-10-10T15:44:20.153Z"
   },
   "mmr": {
     "account": {
@@ -37,9 +37,9 @@
         "id": 18,
         "name": "Diamond 1"
       },
-      "rr": 72,
-      "last_change": 16,
-      "elo": 1572,
+      "rr": 86,
+      "last_change": 14,
+      "elo": 1586,
       "games_needed_for_rating": 0,
       "rank_protection_shields": 2,
       "is_at_rank_protected_tier": true,
@@ -4172,13 +4172,13 @@
           "id": "8102cd81-43a0-d0d7-bd59-47b8fe9bed1b",
           "short": "e11a5"
         },
-        "wins": 7,
-        "games": 13,
+        "wins": 8,
+        "games": 14,
         "end_tier": {
           "id": 18,
           "name": "Diamond 1"
         },
-        "end_rr": 72,
+        "end_rr": 86,
         "ranking_schema": "ascendant",
         "leaderboard_placement": null,
         "act_wins": [
@@ -4209,9 +4209,13 @@
           {
             "id": 18,
             "name": "Diamond 1"
+          },
+          {
+            "id": 18,
+            "name": "Diamond 1"
           }
         ],
-        "wins_with_placements": 7,
+        "wins_with_placements": 8,
         "act_rank": {
           "id": 0,
           "name": "Unrated"
@@ -4229,11 +4233,11 @@
       "IMMORTAL": {
         "count": 2
       },
-      "DIAMOND": {
-        "count": 3
-      },
       "ASCENDANT": {
         "count": 8
+      },
+      "DIAMOND": {
+        "count": 3
       }
     },
     "ranked_state": {
@@ -4245,28 +4249,28 @@
         "id": 18,
         "name": "Diamond 1"
       },
-      "match_id": "9cd00021-9c03-4757-93bd-b330ace27c1b",
+      "match_id": "c05e1d62-819a-4b61-8284-0cbd1ce92b36",
       "map": {
-        "id": "d960549e-485c-e861-8d71-aa9d1aed12a2",
-        "name": "Split"
+        "id": "756da597-416b-c0f2-f47b-afbdf28670bc",
+        "name": "Summit"
       },
       "season": {
         "id": "8102cd81-43a0-d0d7-bd59-47b8fe9bed1b",
         "short": "e11a5"
       },
-      "rr": 72,
-      "last_change": 16,
-      "elo": 1572,
+      "rr": 86,
+      "last_change": 14,
+      "elo": 1586,
       "refunded_rr": 0,
       "was_derank_protected": false,
-      "date": "2026-10-09T20:00:45.671Z",
+      "date": "2026-10-10T09:07:00.045Z",
       "queue_id": "competitive",
-      "match_length": 2603344,
+      "match_length": 2002513,
       "tier_before_update": {
         "id": 18,
         "name": "Diamond 1"
       },
-      "rr_before_update": 56,
+      "rr_before_update": 72,
       "rr_performance_bonus": 0,
       "new_map_incentive_rr_forgiven": 0,
       "competitive_movement": "MOVEMENT_UNKNOWN",
@@ -48379,6 +48383,298 @@
       "syncedAt": "2026-10-09T22:19:33.162Z"
     },
     {
+      "matchId": "c05e1d62-819a-4b61-8284-0cbd1ce92b36",
+      "playedAt": "2026-10-10T09:07:00.045Z",
+      "season": "e11a5",
+      "map": "Summit",
+      "agent": "Fade",
+      "tier": 18,
+      "kills": 7,
+      "deaths": 11,
+      "assists": 4,
+      "score": 2165,
+      "shotsHead": 4,
+      "shotsBody": 26,
+      "shotsLeg": 4,
+      "damageMade": 1399,
+      "damageReceived": 2335,
+      "roundsWon": 13,
+      "roundsLost": 8,
+      "won": true,
+      "detail": {
+        "duels": [
+          {
+            "x": 2932,
+            "y": 6420,
+            "ex": 2932,
+            "ey": 6420,
+            "mx": 1886,
+            "my": 6457,
+            "won": true,
+            "side": "attack",
+            "agent": "Fade",
+            "round": 0,
+            "weapon": "Ghost",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 2439,
+            "y": 6262,
+            "ex": 2643,
+            "ey": 7427,
+            "mx": 2439,
+            "my": 6262,
+            "won": false,
+            "side": "attack",
+            "agent": "Fade",
+            "round": 0,
+            "weapon": "Classic",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 9893,
+            "y": 10455,
+            "ex": 9893,
+            "ey": 10455,
+            "mx": 9448,
+            "my": 11883,
+            "won": true,
+            "side": "attack",
+            "agent": "Fade",
+            "round": 1,
+            "weapon": "Stinger",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 8509,
+            "y": 8080,
+            "ex": 8509,
+            "ey": 8080,
+            "mx": 8476,
+            "my": 9124,
+            "won": true,
+            "side": "attack",
+            "agent": "Fade",
+            "round": 1,
+            "weapon": "Stinger",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 8922,
+            "y": 12554,
+            "ex": 8922,
+            "ey": 12554,
+            "mx": 8886,
+            "my": 11247,
+            "won": true,
+            "side": "attack",
+            "agent": "Fade",
+            "round": 4,
+            "weapon": "Phantom",
+            "enemyAgent": "Neon"
+          },
+          {
+            "x": 6239,
+            "y": 9921,
+            "ex": 6255,
+            "ey": 9542,
+            "mx": 6239,
+            "my": 9921,
+            "won": false,
+            "side": "attack",
+            "agent": "Fade",
+            "round": 5,
+            "weapon": "Vandal",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 8133,
+            "y": 11742,
+            "ex": 8133,
+            "ey": 11742,
+            "mx": 8494,
+            "my": 9740,
+            "won": true,
+            "side": "attack",
+            "agent": "Fade",
+            "round": 6,
+            "weapon": "Phantom",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 7407,
+            "y": 9610,
+            "ex": 7678,
+            "ey": 10109,
+            "mx": 7407,
+            "my": 9610,
+            "won": false,
+            "side": "attack",
+            "agent": "Fade",
+            "round": 7,
+            "enemyAgent": "Neon"
+          },
+          {
+            "x": 10049,
+            "y": 11228,
+            "ex": 9195,
+            "ey": 9528,
+            "mx": 10049,
+            "my": 11228,
+            "won": false,
+            "side": "attack",
+            "agent": "Fade",
+            "round": 8,
+            "weapon": "Phantom",
+            "enemyAgent": "Jett"
+          },
+          {
+            "x": 6755,
+            "y": 1974,
+            "ex": 6172,
+            "ey": 2718,
+            "mx": 6755,
+            "my": 1974,
+            "won": false,
+            "side": "attack",
+            "agent": "Fade",
+            "round": 9,
+            "weapon": "Vandal",
+            "enemyAgent": "Neon"
+          },
+          {
+            "x": 6624,
+            "y": 9522,
+            "ex": 8568,
+            "ey": 10587,
+            "mx": 6624,
+            "my": 9522,
+            "won": false,
+            "side": "attack",
+            "agent": "Fade",
+            "round": 10,
+            "weapon": "Warden",
+            "enemyAgent": "Neon"
+          },
+          {
+            "x": 4178,
+            "y": 6596,
+            "ex": 6000,
+            "ey": 5566,
+            "mx": 4178,
+            "my": 6596,
+            "won": false,
+            "side": "attack",
+            "agent": "Fade",
+            "round": 11,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 8127,
+            "y": 3469,
+            "ex": 7387,
+            "ey": 807,
+            "mx": 8127,
+            "my": 3469,
+            "won": false,
+            "side": "defense",
+            "agent": "Fade",
+            "round": 14,
+            "weapon": "Vandal",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 6284,
+            "y": 10313,
+            "ex": 6284,
+            "ey": 10313,
+            "mx": 7854,
+            "my": 9837,
+            "won": true,
+            "side": "defense",
+            "agent": "Fade",
+            "round": 15,
+            "opener": true,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 7562,
+            "y": 9288,
+            "ex": 7033,
+            "ey": 9140,
+            "mx": 7562,
+            "my": 9288,
+            "won": false,
+            "side": "defense",
+            "agent": "Fade",
+            "round": 15,
+            "weapon": "Vandal",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 4898,
+            "y": 4465,
+            "ex": 4898,
+            "ey": 4465,
+            "mx": 4897,
+            "my": 6146,
+            "won": true,
+            "side": "defense",
+            "agent": "Fade",
+            "round": 16,
+            "weapon": "Stinger",
+            "enemyAgent": "Fade"
+          },
+          {
+            "x": 8893,
+            "y": 3007,
+            "ex": 9422,
+            "ey": 1123,
+            "mx": 8893,
+            "my": 3007,
+            "won": false,
+            "side": "defense",
+            "agent": "Fade",
+            "round": 17,
+            "weapon": "Phantom",
+            "enemyAgent": "Clove"
+          },
+          {
+            "x": 6103,
+            "y": 10054,
+            "ex": 5302,
+            "ey": 9449,
+            "mx": 6103,
+            "my": 10054,
+            "won": false,
+            "side": "defense",
+            "agent": "Fade",
+            "round": 19,
+            "weapon": "Vandal",
+            "enemyAgent": "Fade"
+          }
+        ],
+        "weapons": [
+          {
+            "kills": 3,
+            "weapon": "Stinger"
+          },
+          {
+            "kills": 3,
+            "weapon": "Phantom"
+          },
+          {
+            "kills": 1,
+            "weapon": "Ghost"
+          }
+        ]
+      },
+      "hasDetail": true,
+      "syncedAt": "2026-10-10T15:44:26.157Z"
+    },
+    {
       "matchId": "45421f81-dcc8-42de-b223-f0431a955db3",
       "playedAt": "2026-02-16T18:37:37.952Z",
       "season": "e11a1",
@@ -78494,6 +78790,16 @@
       "lastChange": -21,
       "elo": 1556,
       "map": "Haven"
+    },
+    {
+      "matchId": "c05e1d62-819a-4b61-8284-0cbd1ce92b36",
+      "playedAt": "2026-10-10T09:07:00.045Z",
+      "tier": 18,
+      "tierName": "Diamond 1",
+      "rr": 86,
+      "lastChange": 14,
+      "elo": 1586,
+      "map": "Summit"
     }
   ]
 }
