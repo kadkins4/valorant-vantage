@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T00:11:20.197Z",
+  "generatedAt": "2026-11-14T07:23:00.196Z",
   "account": {
     "puuid": "150b68cb-4440-5659-af74-e59b91a3d0a8",
     "region": "na",
@@ -12,7 +12,7 @@
       "PC",
       "CONSOLE"
     ],
-    "updated_at": "2026-11-14T00:11:12.699Z"
+    "updated_at": "2026-11-14T07:22:51.434Z"
   },
   "mmr": {
     "account": {
@@ -37,9 +37,9 @@
         "id": 18,
         "name": "Diamond 1"
       },
-      "rr": 74,
-      "last_change": -22,
-      "elo": 1574,
+      "rr": 91,
+      "last_change": 17,
+      "elo": 1591,
       "games_needed_for_rating": 0,
       "rank_protection_shields": 2,
       "is_at_rank_protected_tier": true,
@@ -4233,13 +4233,13 @@
           "id": "d816f426-48ea-f052-117f-9697a155b319",
           "short": "e11a6"
         },
-        "wins": 6,
-        "games": 13,
+        "wins": 7,
+        "games": 14,
         "end_tier": {
           "id": 18,
           "name": "Diamond 1"
         },
-        "end_rr": 74,
+        "end_rr": 91,
         "ranking_schema": "ascendant",
         "leaderboard_placement": null,
         "act_wins": [
@@ -4266,9 +4266,13 @@
           {
             "id": 18,
             "name": "Diamond 1"
+          },
+          {
+            "id": 18,
+            "name": "Diamond 1"
           }
         ],
-        "wins_with_placements": 6,
+        "wins_with_placements": 7,
         "act_rank": {
           "id": 0,
           "name": "Unrated"
@@ -4278,11 +4282,11 @@
       }
     ],
     "lifetime_prestige": {
-      "IMMORTAL": {
-        "count": 2
-      },
       "ASCENDANT": {
         "count": 8
+      },
+      "IMMORTAL": {
+        "count": 2
       },
       "DIAMOND": {
         "count": 3
@@ -4297,28 +4301,28 @@
         "id": 18,
         "name": "Diamond 1"
       },
-      "match_id": "23583dad-5e0a-4fd2-8673-9d3235e4103e",
+      "match_id": "8da5baee-610c-413c-b89d-d625a8f64e9e",
       "map": {
-        "id": "224b0a95-48b9-f703-1bd8-67aca101a61f",
-        "name": "Abyss"
+        "id": "1c18ab1f-420d-0d8b-71d0-77ad3c439115",
+        "name": "Corrode"
       },
       "season": {
         "id": "d816f426-48ea-f052-117f-9697a155b319",
         "short": "e11a6"
       },
-      "rr": 74,
-      "last_change": -22,
-      "elo": 1574,
+      "rr": 91,
+      "last_change": 17,
+      "elo": 1591,
       "refunded_rr": 0,
       "was_derank_protected": false,
-      "date": "2026-11-13T23:24:00.893Z",
+      "date": "2026-11-13T23:46:06.924Z",
       "queue_id": "competitive",
-      "match_length": 1140071,
+      "match_length": 1721072,
       "tier_before_update": {
         "id": 18,
         "name": "Diamond 1"
       },
-      "rr_before_update": 96,
+      "rr_before_update": 74,
       "rr_performance_bonus": 0,
       "new_map_incentive_rr_forgiven": 0,
       "competitive_movement": "MOVEMENT_UNKNOWN",
@@ -21364,6 +21368,372 @@
       },
       "hasDetail": true,
       "syncedAt": "2026-05-28T06:36:12.793Z"
+    },
+    {
+      "matchId": "8da5baee-610c-413c-b89d-d625a8f64e9e",
+      "playedAt": "2026-11-13T23:46:06.924Z",
+      "season": "e11a6",
+      "map": "Corrode",
+      "agent": "Sage",
+      "tier": 18,
+      "kills": 11,
+      "deaths": 12,
+      "assists": 7,
+      "score": 3356,
+      "shotsHead": 7,
+      "shotsBody": 44,
+      "shotsLeg": 2,
+      "damageMade": 2261,
+      "damageReceived": 2212,
+      "roundsWon": 13,
+      "roundsLost": 5,
+      "won": true,
+      "detail": {
+        "duels": [
+          {
+            "x": 5022,
+            "y": -3546,
+            "ex": 4425,
+            "ey": -1981,
+            "mx": 5022,
+            "my": -3546,
+            "won": false,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 0,
+            "weapon": "Frenzy",
+            "enemyAgent": "Brimstone"
+          },
+          {
+            "x": -3157,
+            "y": 967,
+            "ex": -3169,
+            "ey": -353,
+            "mx": -3157,
+            "my": 967,
+            "won": false,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 1,
+            "opener": true,
+            "weapon": "Marshal",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 4524,
+            "y": 1211,
+            "ex": 4528,
+            "ey": -1071,
+            "mx": 4524,
+            "my": 1211,
+            "won": false,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 2,
+            "weapon": "Hot Hands",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": 337,
+            "y": -1802,
+            "ex": 337,
+            "ey": -1802,
+            "mx": -523,
+            "my": 702,
+            "won": true,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 3,
+            "weapon": "Stinger",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": -616,
+            "y": 472,
+            "ex": 398,
+            "ey": 1845,
+            "mx": -616,
+            "my": 472,
+            "won": false,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 3,
+            "weapon": "Phantom",
+            "enemyAgent": "Raze"
+          },
+          {
+            "x": 3432,
+            "y": -1488,
+            "ex": 2152,
+            "ey": -1052,
+            "mx": 3432,
+            "my": -1488,
+            "won": false,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 4,
+            "weapon": "Phantom",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -2326,
+            "y": -1732,
+            "ex": -2326,
+            "ey": -1732,
+            "mx": -2842,
+            "my": -1999,
+            "won": true,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 5,
+            "weapon": "Vandal",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -5244,
+            "y": -2628,
+            "ex": -5347,
+            "ey": -3153,
+            "mx": -5244,
+            "my": -2628,
+            "won": false,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 5,
+            "weapon": "Stinger",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": -3127,
+            "y": -1795,
+            "ex": -3127,
+            "ey": -1795,
+            "mx": -2467,
+            "my": -1078,
+            "won": true,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 6,
+            "weapon": "Vandal",
+            "enemyAgent": "Sova"
+          },
+          {
+            "x": 4057,
+            "y": -719,
+            "ex": 1794,
+            "ey": -1300,
+            "mx": 4057,
+            "my": -719,
+            "won": false,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 7,
+            "weapon": "Stinger",
+            "enemyAgent": "Brimstone"
+          },
+          {
+            "x": 4857,
+            "y": 758,
+            "ex": 4857,
+            "ey": 758,
+            "mx": 2442,
+            "my": 1720,
+            "won": true,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 8,
+            "opener": true,
+            "weapon": "Vandal",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": 3724,
+            "y": -2081,
+            "ex": 3724,
+            "ey": -2081,
+            "mx": 2842,
+            "my": -2110,
+            "won": true,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 9,
+            "weapon": "Vandal",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": 2897,
+            "y": -2291,
+            "ex": 3946,
+            "ey": -2247,
+            "mx": 2897,
+            "my": -2291,
+            "won": false,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 9,
+            "weapon": "Vandal",
+            "enemyAgent": "Brimstone"
+          },
+          {
+            "x": -586,
+            "y": 2910,
+            "ex": 782,
+            "ey": -225,
+            "mx": -586,
+            "my": 2910,
+            "won": false,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 10,
+            "weapon": "Phantom",
+            "enemyAgent": "Raze"
+          },
+          {
+            "x": -2735,
+            "y": -1905,
+            "ex": -2735,
+            "ey": -1905,
+            "mx": -3150,
+            "my": -1998,
+            "won": true,
+            "side": "attack",
+            "agent": "Sage",
+            "round": 11,
+            "weapon": "Vandal",
+            "enemyAgent": "Raze"
+          },
+          {
+            "x": -2880,
+            "y": -1242,
+            "ex": -4427,
+            "ey": -1069,
+            "mx": -2880,
+            "my": -1242,
+            "won": false,
+            "side": "defense",
+            "agent": "Sage",
+            "round": 12,
+            "opener": true,
+            "weapon": "Classic",
+            "enemyAgent": "Raze"
+          },
+          {
+            "x": 1325,
+            "y": -325,
+            "ex": 1325,
+            "ey": -325,
+            "mx": 1042,
+            "my": -1121,
+            "won": true,
+            "side": "defense",
+            "agent": "Sage",
+            "round": 13,
+            "weapon": "Stinger",
+            "enemyAgent": "Sova"
+          },
+          {
+            "x": 1354,
+            "y": -210,
+            "ex": 1354,
+            "ey": -210,
+            "mx": 1508,
+            "my": -1203,
+            "won": true,
+            "side": "defense",
+            "agent": "Sage",
+            "round": 13,
+            "weapon": "Stinger",
+            "enemyAgent": "Phoenix"
+          },
+          {
+            "x": 1078,
+            "y": 1855,
+            "ex": 1078,
+            "ey": 1855,
+            "mx": -1397,
+            "my": 2786,
+            "won": true,
+            "side": "defense",
+            "agent": "Sage",
+            "round": 15,
+            "weapon": "Phantom",
+            "enemyAgent": "Brimstone"
+          },
+          {
+            "x": 280,
+            "y": 2520,
+            "ex": 280,
+            "ey": 2520,
+            "mx": -3302,
+            "my": 2178,
+            "won": true,
+            "side": "defense",
+            "agent": "Sage",
+            "round": 16,
+            "weapon": "Phantom",
+            "enemyAgent": "Brimstone"
+          },
+          {
+            "x": 2809,
+            "y": -1235,
+            "ex": 4639,
+            "ey": -1063,
+            "mx": 2809,
+            "my": -1235,
+            "won": false,
+            "side": "defense",
+            "agent": "Sage",
+            "round": 16,
+            "weapon": "Vandal",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -4525,
+            "y": -819,
+            "ex": -4525,
+            "ey": -819,
+            "mx": -5137,
+            "my": -1058,
+            "won": true,
+            "side": "defense",
+            "agent": "Sage",
+            "round": 17,
+            "opener": true,
+            "weapon": "Vandal",
+            "enemyAgent": "Chamber"
+          },
+          {
+            "x": -4627,
+            "y": -1435,
+            "ex": -4590,
+            "ey": -897,
+            "mx": -4627,
+            "my": -1435,
+            "won": false,
+            "side": "defense",
+            "agent": "Sage",
+            "round": 17,
+            "weapon": "Vandal",
+            "enemyAgent": "Sova"
+          }
+        ],
+        "weapons": [
+          {
+            "kills": 6,
+            "weapon": "Vandal"
+          },
+          {
+            "kills": 3,
+            "weapon": "Stinger"
+          },
+          {
+            "kills": 2,
+            "weapon": "Phantom"
+          }
+        ]
+      },
+      "hasDetail": true,
+      "syncedAt": "2026-11-14T07:22:59.151Z"
     },
     {
       "matchId": "1fedd651-5806-463c-b2f0-ed4bdc7a7697",
@@ -85499,6 +85869,16 @@
       "lastChange": -22,
       "elo": 1574,
       "map": "Abyss"
+    },
+    {
+      "matchId": "8da5baee-610c-413c-b89d-d625a8f64e9e",
+      "playedAt": "2026-11-13T23:46:06.924Z",
+      "tier": 18,
+      "tierName": "Diamond 1",
+      "rr": 91,
+      "lastChange": 17,
+      "elo": 1591,
+      "map": "Corrode"
     }
   ]
 }
